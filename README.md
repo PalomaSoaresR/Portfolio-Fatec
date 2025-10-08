@@ -103,7 +103,15 @@ O sistema foi desenvolvido para uma instituição de ensino (PBLTeX), especializ
 
 </details>
 
+<details>
+ <summary>Fluxo de opções do usuário</summary>
+  
+  https://github.com/user-attachments/assets/8ee3caa2-6a63-4f9e-b476-6e7108d19b3c
+
+</details>
+
 ---
+
 
 #### Hard Skills
 <div align="center">
@@ -114,6 +122,7 @@ O sistema foi desenvolvido para uma instituição de ensino (PBLTeX), especializ
 | Git/GitHub  | ★★★☆☆         |
 
 </div>
+
 
 #### Soft Skills
 <div align="center">
