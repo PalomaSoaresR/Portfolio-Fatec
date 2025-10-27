@@ -43,10 +43,16 @@ Neste portfólio, apresento os projetos em que atuei na Faculdade de Banco de Da
 
 ### 1° semestre | 2/2023  
 #### Projeto: Porygon  
-*Empresa parceira: [FATEC São José dos Campos - Prof. Jessen Vidal](https://fatecsjc-prd.azurewebsites.net/)*  
+*Empresa parceira: PBLTeX - [FATEC São José dos Campos - Prof. Jessen Vidal](https://fatecsjc-prd.azurewebsites.net/)*  
 
-Aplicação backend com interface de linha de comando (CLI).  
-O sistema foi desenvolvido para uma instituição de ensino (PBLTeX), especializada em cursos baseados no método PBL (*Problem Based Learning*), permitindo ciclos de entregas e cálculo do **FEE (Fator de Ensino Evolutivo)**.  
+#### Problema
+A PBLTeX utiliza uma metodologia de ensino diferenciada chamada PBL (Problem Based Learning), que depende da gestão de múltiplos "ciclos de entregas" e do registro de "scores parciais" de cada aluno para, ao final, computar o "Fator de Ensino Evolutivo" (FEE).
+
+Atualmente, a instituição não possui um sistema de informação que suporte essa técnica específica. Isso força que o acompanhamento dos ciclos, a coleta dos scores e o cálculo do FEE sejam realizados através de processos manuais ou ferramentas genéricas (como planilhas). Esse método é lento, propenso a erros de cálculo e difícil de escalar à medida que o número de alunos aumenta, tornando a aplicação eficiente da sua principal técnica de ensino um desafio operacional.
+A solução proposta é uma aplicação backend com interface de linha de comando (CLI).
+
+#### Solução
+Este sistema foi desenvolvido especificamente para a instituição de ensino PBLTeX, especializada em cursos baseados no método PBL (Problem Based Learning). A aplicação permite o gerenciamento dos "ciclos de entregas" e o "cálculo do Fator de Ensino Evolutivo (FEE)"*, viabilizando a operacionalização da técnica de ensino da instituição. 
 
 **Funcionalidades principais:**  
 - Cadastro de alunos e professores  
