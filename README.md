@@ -128,6 +128,6 @@ Nesse projeto, atuei como **Product Owner**, sendo responsável pelo levantament
 
 #### Soft Skills
 
-Durante as sprints, organizei as atividades do time de forma clara, definindo prioridades de cata atividade e dividindo elas de acordo com as habilidades dos membros da equipe. Isso garantiu que todos soubessem exatamente o que fazer e que as entregas fossem realizadas dentro do prazo estabelecido.
-Motivei o time e acompanhei o desempenho de cada integrante, oferecendo suporte e orientação quando necessário. Incentivei a colaboração e o engajamento, garantindo que todos participassem ativamente e se sentissem parte do projeto, mesmo sendo o primeiro semestre e a equipe ainda iniciante.
+Durante as sprints, organizei as atividades do time de forma clara, definindo prioridades de cata atividade e dividindo elas de acordo com as habilidades dos membros da equipe. Isso garantiu que todos soubessem exatamente o que fazer e que as entregas fossem realizadas dentro do prazo estabelecido.<br/><br/>
+Motivei o time e acompanhei o desempenho de cada integrante, oferecendo suporte e orientação quando necessário. Incentivei a colaboração e o engajamento, garantindo que todos participassem ativamente e se sentissem parte do projeto, mesmo sendo o primeiro semestre e a equipe ainda iniciante.<br/><br/>
 Como Product Owner, tomei decisões diretas para que as entregas corressem conforme o solicitado pelo cliente. Estruturei o trabalho de forma simples e objetiva, garantindo que o time entregasse exatamente o que era esperado, evitando retrabalho e confusões durante a sprint.
