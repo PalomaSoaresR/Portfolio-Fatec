@@ -11,9 +11,7 @@
 </p>
 
 <p align="justify">
-Olá! Sou a Paloma, estudante de Banco de Dados na FATEC São José dos Campos. 
-Sou apaixonada por tecnologia e pelas soluções que ela pode proporcionar. 
-Neste portfólio, apresento os projetos em que atuei na Faculdade de Banco de Dados na Fatec de São José dos Campos.
+Olá! Sou a Paloma, estudante de Banco de Dados na FATEC São José dos Campos. Iniciei meus estudos na área de tecnologia no primeiro semestre de 2023, no curso de Big Data e Inteligência Analítica, onde tive meus primeiros contatos com levantamento de requisitos, comunicação com o cliente, organização de projetos e a metodologia Scrum. <br/><br/> Por preferir a modalidade presencial, migrei para a FATEC no segundo semestre de 2023. Desde então, participei das API’s (Aprendizagem por Projetos Integrados), aplicando na prática o que aprendi e desenvolvendo projetos com linguagens como Python, Java e JavaScript, além de frameworks como Vue.js, Spring Boot e Django. Também tive experiência com diversos bancos de dados, como PostgreSQL, MySQL, Oracle e MongoDB. <br/><br/> Atualmente atuo como desenvolvedora back-end júnior, trabalhando principalmente com C# e .NET, utilizando SQL Server, seguindo a metodologia Scrum e participando ativamente de levantamento de requisitos e organização de projetos. <br/><br/> Neste portfólio, apresento os projetos que desenvolvi ao longo da minha trajetória na FATEC e minha evolução prática na área de tecnologia.
 </p>
 
 ---
