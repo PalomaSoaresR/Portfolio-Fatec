@@ -131,3 +131,70 @@ Nesse projeto, atuei como **Product Owner**, sendo responsável pelo levantament
 Durante as sprints, organizei as atividades do time de forma clara, definindo prioridades de cada atividade e dividindo elas de acordo com as habilidades dos membros da equipe. Isso garantiu que todos soubessem exatamente o que fazer e que as entregas fossem realizadas dentro do prazo estabelecido.<br/><br/>
 Motivei o time e acompanhei o desempenho de cada integrante, oferecendo suporte e orientação quando necessário. Incentivei a colaboração e o engajamento, garantindo que todos participassem ativamente e se sentissem parte do projeto, mesmo sendo o primeiro semestre e a equipe ainda iniciante.<br/><br/>
 Como Product Owner, tomei decisões diretas para que as entregas corressem conforme o solicitado pelo cliente. Estruturei o trabalho de forma simples e objetiva, garantindo que o time entregasse exatamente o que era esperado, evitando retrabalho e confusões durante a sprint.
+
+--- 
+### 2° semestre | 2/2023  
+**Projeto:** Sistema de Monitoramento Climático  
+**Empresa parceira:** FATEC São José dos Campos  
+
+---
+
+#### Problema
+Ter um bom entendimento do clima de uma região é essencial para o planejamento de atividades em diversas áreas. Por exemplo, conhecer a temperatura e umidade média em determinados períodos do ano pode influenciar na escolha do que plantar em uma fazenda.  
+
+Atualmente, existem diversas bases de dados públicas em arquivos CSV. Cada cidade pode ter múltiplas estações de monitoramento, cada uma com formatos diferentes. Isso torna o processamento manual lento, propenso a erros e difícil de escalar.  
+
+---
+
+#### Solução
+O sistema foi desenvolvido para processar arquivos CSV de estações meteorológicas, armazenar os dados em um **banco relacional**, validar registros suspeitos e gerar relatórios detalhados por cidade e período. Também possibilita o gerenciamento de estações, cidades e unidades de medida, garantindo dados consistentes e acessíveis.
+
+**Link do projeto:** [API-Clima](https://github.com/PalomaSoaresR/API-2-semestre)  
+
+**Funcionalidades principais:**  
+- Importação e validação de arquivos CSV  
+- Relatório de valor médio das variáveis climáticas por cidade, com periodicidade horária  
+- Relatório de situação mostrando valores médios das últimas medições  
+- Tratamento de registros suspeitos (revisão, alteração ou exclusão)  
+- Gerenciamento de estações, cidades e unidades de medida  
+- Exportação de relatórios e dados para análise  
+
+---
+
+#### Tecnologias Utilizadas
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="25"/> **GitHub** → hospedagem e controle de versão de código  
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="25"/> **Git** → versionamento e gerenciamento de histórico de código  
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="25"/> **Visual Studio Code** → ambiente de desenvolvimento utilizado pela equipe
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="25" alt="java logo"  /> **Java** → linguagem utilizada no desenvolvimento da aplicação, responsável pela implementação da lógica de negócios, regras de validação e geração de relatórios
+- <img src="https://github.com/user-attachments/assets/e87b0ac1-6b48-40f9-8f19-70ca53d617d0" height="25" /> **JDBC (Java Database Connectivity)** → integração da aplicação com o **banco de dados relacional**, possibilitando leitura, escrita e atualização das informações
+-  <img src="https://github.com/user-attachments/assets/c4bae489-da63-4af4-b3c8-399300ae1fa4" height="25" /> **Scene Builder** → ferramenta para criação da interface gráfica da aplicação JavaFX de forma visual e intuitiva  
+
+
+
+---
+
+#### Contribuições pessoais
+Nesse projeto, atuei como **desenvolvedora**, sendo responsável pelo desenvolvimento da lógica de importação e validação de arquivos CSV, criação dos relatórios de valor médio e situação, além do gerenciamento das entidades do banco de dados. Trabalhei diretamente com a implementação da aplicação em Java Desktop, garantindo que todos os requisitos funcionais fossem atendidos com qualidade e dentro do prazo.  
+
+Participei do levantamento de requisitos, organização de tarefas e definição de entregas do time, aplicando os conceitos de Scrum e metodologias ágeis.
+
+---
+
+#### Hard Skills
+- **Java Desktop / JDBC**: faço/uso com ajuda  
+- **Banco de Dados Relacional (PostgreSQL)**: faço/uso com ajuda  
+- **Scene Builder (JavaFX)**: faço/uso com autonomia  
+- **Git / GitHub**: faço/uso com ajuda  
+
+---
+
+#### Soft Skills
+
+**Organização**  
+Durante as sprints, organizei minhas tarefas e colaborei com o time para que as entregas fossem realizadas de forma estruturada e dentro do prazo.
+
+**Desenvolvimento da equipe**  
+Apesar de cada integrante estar no primeiro semestre, incentivei a colaboração e ofereci suporte quando necessário, ajudando a equipe a evoluir tecnicamente e a se engajar no projeto.
+
+**Assertividade**  
+Tomei decisões técnicas claras e objetivas no desenvolvimento da aplicação, garantindo que os relatórios e funcionalidades atendessem exatamente aos requisitos do cliente.
