@@ -121,7 +121,7 @@ Nesse projeto, atuei como **Product Owner**, sendo responsável pelo levantament
 
 #### Hard Skills
 - **GitHub / Git**: faço/uso com ajuda  
-- **Python (puro)**: faço/uso com ajuda  
+- **Python**: faço/uso com ajuda  
 - **Excel (como banco de dados)**: faço/uso com ajuda  
 
 ---
