@@ -4,6 +4,7 @@
     style="width: 100%; height: auto;"
   />
 </div>
+
 <h2 align="center">Quem sou eu?</h2>
 
 <p align="center">
@@ -11,7 +12,10 @@
 </p>
 
 <p align="justify">
-Olá! Sou a Paloma, estudante de Banco de Dados na FATEC São José dos Campos. Iniciei meus estudos na área de tecnologia no primeiro semestre de 2023, no curso de Big Data e Inteligência Analítica, onde tive meus primeiros contatos com levantamento de requisitos, comunicação com o cliente, organização de projetos e a metodologia Scrum. <br/><br/> Por preferir a modalidade presencial, migrei para a FATEC no segundo semestre de 2023. Desde então, participei das API’s (Aprendizagem por Projetos Integrados), aplicando na prática o que aprendi e desenvolvendo projetos com linguagens como Python, Java e JavaScript, além de frameworks como Vue.js, Spring Boot e Django. Também tive experiência com diversos bancos de dados, como PostgreSQL, MySQL, Oracle e MongoDB. <br/><br/> Atualmente atuo como desenvolvedora back-end júnior, trabalhando principalmente com C# e .NET, utilizando SQL Server, seguindo a metodologia Scrum e participando ativamente de levantamento de requisitos e organização de projetos. <br/><br/> Neste portfólio, apresento os projetos que desenvolvi ao longo da minha trajetória na FATEC e minha evolução prática na área de tecnologia.
+Olá! Sou a Paloma, estudante de Banco de Dados na FATEC São José dos Campos. Iniciei meus estudos na área de tecnologia no primeiro semestre de 2023, no curso de Big Data e Inteligência Analítica, onde tive meus primeiros contatos com levantamento de requisitos, comunicação com o cliente, organização de projetos e a metodologia Scrum.<br/><br/>
+Por preferir a modalidade presencial, migrei para a FATEC no segundo semestre de 2023. Desde então, participei das API’s (Aprendizagem por Projetos Integrados), aplicando na prática o que aprendi e desenvolvendo projetos com linguagens como Python, Java e JavaScript, além de frameworks como Vue.js, Spring Boot e Django. Também tive experiência com diversos bancos de dados, como PostgreSQL, MySQL, Oracle e MongoDB.<br/><br/>
+Atualmente atuo como desenvolvedora back-end júnior, trabalhando principalmente com C# e .NET, utilizando SQL Server, seguindo a metodologia Scrum e participando ativamente de levantamento de requisitos e organização de projetos.<br/><br/>
+Neste portfólio, apresento os projetos que desenvolvi ao longo da minha trajetória na FATEC e minha evolução prática na área de tecnologia.
 </p>
 
 ---
@@ -34,7 +38,6 @@ Olá! Sou a Paloma, estudante de Banco de Dados na FATEC São José dos Campos. 
 - [Projetos](#projetos)
   - [1° semestre | 2/2023 - Porygon](#1-semestre--22023)
  
-
 ---
 
 <h2 align="center">Projetos</h2>
@@ -44,13 +47,16 @@ Olá! Sou a Paloma, estudante de Banco de Dados na FATEC São José dos Campos. 
 *Empresa parceira: PBLTeX - [FATEC São José dos Campos - Prof. Jessen Vidal](https://fatecsjc-prd.azurewebsites.net/)*  
 
 #### Problema
-A PBLTeX utiliza uma metodologia de ensino diferenciada chamada PBL (Problem Based Learning), que depende da gestão de múltiplos "ciclos de entregas" e do registro de "scores parciais" de cada aluno para, ao final, computar o "Fator de Ensino Evolutivo" (FEE).
+A PBLTeX utiliza uma metodologia de ensino diferenciada chamada PBL (Problem Based Learning), que depende da gestão de múltiplos "ciclos de entregas" e do registro de "scores parciais" de cada aluno para, ao final, computar o "Fator de Ensino Evolutivo" (FEE).  
 
-Atualmente, a instituição não possui um sistema de informação que suporte essa técnica específica. Isso força que o acompanhamento dos ciclos, a coleta dos scores e o cálculo do FEE sejam realizados através de processos manuais ou ferramentas genéricas (como planilhas). Esse método é lento, propenso a erros de cálculo e difícil de escalar à medida que o número de alunos aumenta, tornando a aplicação eficiente da sua principal técnica de ensino um desafio operacional.
+Atualmente, a instituição não possui um sistema de informação que suporte essa técnica específica. Isso força que o acompanhamento dos ciclos, a coleta dos scores e o cálculo do FEE sejam realizados através de processos manuais ou ferramentas genéricas (como planilhas). Esse método é lento, propenso a erros de cálculo e difícil de escalar à medida que o número de alunos aumenta, tornando a aplicação eficiente da sua principal técnica de ensino um desafio operacional.  
+
 A solução proposta é uma aplicação backend com interface de linha de comando (CLI).
 
 #### Solução
-Este sistema foi desenvolvido especificamente para a instituição de ensino PBLTeX, especializada em cursos baseados no método PBL (Problem Based Learning). A aplicação permite o gerenciamento dos "ciclos de entregas" e o "cálculo do Fator de Ensino Evolutivo (FEE)"*, viabilizando a operacionalização da técnica de ensino da instituição. 
+Este sistema foi desenvolvido especificamente para a instituição de ensino PBLTeX, especializada em cursos baseados no método PBL. A aplicação permite o gerenciamento dos "ciclos de entregas" e o cálculo do "Fator de Ensino Evolutivo (FEE)", viabilizando a operacionalização da técnica de ensino da instituição.  
+
+Link do projeto: [API-Porygon](https://github.com/PalomaSoaresR/API-Porygon)
 
 **Funcionalidades principais:**  
 - Cadastro de alunos e professores  
@@ -73,10 +79,7 @@ Este sistema foi desenvolvido especificamente para a instituição de ensino PBL
 ---
 
 #### Contribuições pessoais
-- Atuei como **Product Owner**: levantamento e análise de requisitos, criação e priorização do **Product Backlog**.  
-- Defini **Sprints Backlog** e organizei entregas.  
-- Realizei **testes manuais** para validar critérios de aceitação.  
-- Desenvolvi o **fluxo de opções do usuário**, mapeando jornadas e interações para otimizar usabilidade.  
+Nesse projeto, atuei como **Product Owner**, sendo responsável pelo levantamento e análise de requisitos, além da criação e priorização do **Product Backlog**. Também defini o **Sprint Backlog** e organizei as entregas, garantindo que o fluxo de trabalho seguisse a metodologia Scrum. Realizei testes manuais para validar os critérios de aceitação e desenvolvi o **fluxo de opções do usuário**, mapeando jornadas e interações com o objetivo de otimizar a usabilidade do sistema.
 
 <details>
  <summary>Backlog desenvolvido</summary>
@@ -116,25 +119,15 @@ Este sistema foi desenvolvido especificamente para a instituição de ensino PBL
 
 ---
 
-
 #### Hard Skills
-<div align="center">
+- **GitHub / Git**: faço/uso com ajuda  
+- **Python (puro)**: faço/uso com ajuda  
+- **Excel (como banco de dados)**: faço/uso com ajuda  
 
-| Skill       | Classificação |
-|-------------|---------------|
-| Python      | ★★★☆☆         |
-| Git/GitHub  | ★★★☆☆         |
-
-</div>
-
+---
 
 #### Soft Skills
-<div align="center">
 
-| Skill           | Classificação |
-|-----------------|---------------|
-| Organização     | ★★★★☆         |
-| Gestão do tempo | ★★★☆☆         |
-| Comunicação     | ★★★★☆         |
-
-</div>
+Durante as sprints, organizei as atividades do time de forma clara, definindo prioridades de cata atividade e dividindo elas de acordo com as habilidades dos membros da equipe. Isso garantiu que todos soubessem exatamente o que fazer e que as entregas fossem realizadas dentro do prazo estabelecido.
+Motivei o time e acompanhei o desempenho de cada integrante, oferecendo suporte e orientação quando necessário. Incentivei a colaboração e o engajamento, garantindo que todos participassem ativamente e se sentissem parte do projeto, mesmo sendo o primeiro semestre e a equipe ainda iniciante.
+Como Product Owner, tomei decisões diretas para que as entregas corressem conforme o solicitado pelo cliente. Estruturei o trabalho de forma simples e objetiva, garantindo que o time entregasse exatamente o que era esperado, evitando retrabalho e confusões durante a sprint.
