@@ -197,3 +197,97 @@ Por fim, fui responsável por criar todas as exceptions personalizadas utilizada
 Durante o início do projeto, utilizei minha habilidade de estabelecimento de confiança para criar uma boa relação com a equipe, mesmo sem conhecer ninguém previamente. Aos poucos, construí um ambiente de colaboração e respeito mútuo, o que facilitou o trabalho em grupo e tornou as discussões mais produtivas. Essa confiança foi essencial para o alinhamento das tarefas e para garantir que todos se sentissem à vontade para contribuir.
 Ao longo das sprints, desenvolvi minha comunicação participando ativamente das dailys e interagindo com colegas de forma mais clara e assertiva. Como era um time novo, precisei aprimorar a forma de me expressar, aprendendo a fazer perguntas objetivas, esclarecer dúvidas e expor ideias com segurança. Essa evolução ajudou na agilidade das decisões e na qualidade das entregas.
 Também utilizei minha criatividade para propor melhorias na navegação do sistema e deixando-o mais intuitivo e contribuindo para uma experiência mais agradável. Essa habilidade foi essencial para unir o aspecto técnico ao visual, garantindo um resultado funcional e atrativo.
+
+--- 
+
+### 3° semestre | 2/2024  
+**Projeto:** Sistema de Mapeamento de Notícias Estratégicas  
+**Empresa parceira:** 
+
+---
+
+#### Problema
+Atualmente, a coleta de notícias estratégicas e dados relevantes é feita de forma manual, exigindo que analistas acessem diversos portais e APIs para buscar informações. Esse processo é demorado, sujeito a falhas e dificulta o acompanhamento contínuo de temas importantes para o negócio.
+Muitas vezes, por falta de tempo ou excesso de tarefas, as atualizações deixam de ser feitas, comprometendo a análise de tendências e a tomada de decisões baseada em dados.
+
+---
+
+#### Solução
+O sistema foi desenvolvido com o objetivo de automatizar a captura, armazenamento e exibição de notícias estratégicas e dados provenientes de APIs externas. A aplicação permite o cadastro de portais, jornalistas, tags e APIs, além de realizar web scraping periódico para coleta de novas informações.  
+Exibindo os dados de forma clara, permitindo consultas rápidas e identificação de tendências. O projeto também foi estruturado para, em estágios futuros, integrar algoritmos de inteligência artificial e machine learning para análise preditiva.
+
+**Link do projeto:** [Sistema de Mapeamento de Notícias Estratégicas](https://github.com/PalomaSoaresR/API-3-semestre)
+
+**Funcionalidades principais:**  
+- Cadastro de portais de notícias, jornalistas, tags e APIs  
+- Processo de web scraping automatizado  
+- Relacionamento de tags a notícias e APIs  
+- Interface web para consulta e análise de dados  
+- Documentação detalhada da API e manuais de instalação  
+
+---
+
+#### Tecnologias Utilizadas
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="25"/> **Java 21** → linguagem principal para o desenvolvimento do backend e integração com o banco de dados  
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" height="25"/> **Spring Boot 3.3.3** → framework utilizado para construção da API e gerenciamento de dependências  
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" height="25"/> **Vue.js 3** → framework JavaScript utilizado no front-end para criar interfaces dinâmicas e reativas  
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="25"/> **JavaScript (ES6+)** → manipulação de componentes e integração com a API  
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="25"/> **Bootstrap 5.3.3** → framework CSS para layout responsivo e minimalista  
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="25"/> **MySQL 8.0** → banco de dados relacional utilizado para persistência de dados das notícias e APIs  
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg" height="25"/> **Maven 3.8.1** → gerenciamento de dependências do projeto backend  
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="25"/> **Git** → controle de versão e colaboração entre os membros da equipe  
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="25"/> **GitHub** → hospedagem do repositório e versionamento do código  
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="25"/> **Visual Studio Code** → utilizado para o desenvolvimento do front-end em Vue.js e back-end em java
+
+
+---
+
+#### Contribuições pessoais
+Nesse projeto, atuei diretamente no desenvolvimento do front-end da aplicação, sendo responsável pela implementação das principais funcionalidades de cadastro, edição, exclusão e listagem dos portais de notícias. As interfaces foram desenvolvidas com Vue.js 3, integrando-se ao backend via Axios para garantir a persistência e sincronia dos dados entre o sistema e o banco de dados.
+<details>
+  <summary><b>Detalhes</b></summary>
+  <br/>
+  <img src="https://github.com/user-attachments/assets/bd5aed91-0d68-4483-95f3-952b0d8719b1" width="100%" />
+</details>
+Implementei a tela de gerenciamento de portais de notícias, que permite o cadastro de novos portais, com validações de campos obrigatórios, edição e exclusão com confirmação de ação e associação de tags temáticas, otimizando a organização e filtragem das informações.  
+<br/>
+
+<details>
+  <summary><b>Detalhes</b></summary>
+  <br/>
+  <img src="https://github.com/user-attachments/assets/3c4f000e-f0a8-4349-9a11-d139d381172f" width="100%" />
+</details>
+  <br/>
+
+Além disso, desenvolvi feedbacks visuais de sucesso e erro, atualização automática da lista de portais após cada operação e layout responsivo utilizando Bootstrap, assegurando boa usabilidade em diferentes dispositivos.
+<br/>
+
+Também participei da criação dos filtros dinâmicos para APIs, permitindo busca por nome, status, data e categoria, facilitando o gerenciamento e localização de fontes específicas dentro do sistema.
+<details>
+  <summary><b>Detalhes</b></summary>
+  <br/>
+  <img src="https://github.com/user-attachments/assets/a430400f-16b8-44c6-9df0-073a5196bf8d" width="100%" />
+</details>
+---
+
+#### Hard Skills
+- **Java / Spring Boot / JPA**: faço/uso com autonomia  
+- **Banco de Dados Relacional (MySQL)**: faço/uso com autonomia  
+- **Vue.js / JavaScript / Bootstrap**: faço/uso com ajuda  
+- **Git / GitHub**: faço/uso com autonomia  
+
+---
+
+#### Soft Skills
+
+**Comunicação:**  
+Durante as reuniões de alinhamento e daily meetings, pratiquei uma comunicação clara e objetiva com a equipe, garantindo que todos compreendessem o andamento das tarefas e prazos. Essa troca constante permitiu identificar bloqueios rapidamente e manter o ritmo do desenvolvimento.  
+
+**Colaboração e Trabalho em Equipe:**  
+Ao longo do projeto, trabalhei de forma colaborativa com colegas de backend e front-end, compartilhando ideias e soluções. A colaboração foi essencial para integrar os diferentes módulos da aplicação e garantir a coerência da entrega.  
+
+**Organização e Planejamento:**  
+Participei ativamente do planejamento das sprints e da divisão de tarefas no Trello. Mantive o acompanhamento das entregas e documentações, o que contribuiu para a execução eficiente do cronograma e entregas dentro do prazo.  
+
+---
+
