@@ -37,7 +37,6 @@ Neste portfólio, apresento os projetos que desenvolvi ao longo da minha trajet�
 - [Contatos](#contatos)
 - [Projetos](#projetos)
   - [1° semestre | 2/2023 - Porygon](#1-semestre--22023)
- 
 ---
 
 <h2 align="center">Projetos</h2>
@@ -174,9 +173,13 @@ O sistema foi desenvolvido para processar arquivos CSV de estações meteorológ
 ---
 
 #### Contribuições pessoais
-Nesse projeto, atuei como **desenvolvedora**, sendo responsável pelo desenvolvimento da lógica de importação e validação de arquivos CSV, criação dos relatórios de valor médio e situação, além do gerenciamento das entidades do banco de dados. Trabalhei diretamente com a implementação da aplicação em Java Desktop, garantindo que todos os requisitos funcionais fossem atendidos com qualidade e dentro do prazo.  
+Nesse projeto, atuei como desenvolvedora e fui responsável pela implementação do backend do relatório para geração dos dados estatísticos utilizados no boxplot, aplicando fórmulas estatísticas para o cálculo do limite inferior, Q1, mediana (Q2), Q3, limite superior e detecção de outliers.
 
-Participei do levantamento de requisitos, organização de tarefas e definição de entregas do time, aplicando os conceitos de Scrum e metodologias ágeis.
+Também desenvolvi a funcionalidade de gerenciamento de cidades no sistema. Além disso, criei o novo menu “Gerenciar” e o submenu “Cidade”, assegurando a navegação correta e o fluxo de edição conforme os requisitos definidos.
+
+Contribuí ainda com a padronização da identidade visual da aplicação desktop, garantindo consistência entre as telas criadas no Scene Builder e uma melhor experiência do usuário. Também implementei a exibição estruturada de erros na interface, tornando o sistema mais claro e intuitivo.
+
+Por fim, fui responsável por criar todas as exceptions personalizadas utilizadas no backend, organizando-as de forma limpa e reutilizável, o que permitiu um controle mais preciso sobre erros de negócio, validações e fluxos incorretos.
 
 ---
 
@@ -190,11 +193,6 @@ Participei do levantamento de requisitos, organização de tarefas e definição
 
 #### Soft Skills
 
-**Organização**  
-Durante as sprints, organizei minhas tarefas e colaborei com o time para que as entregas fossem realizadas de forma estruturada e dentro do prazo.
-
-**Desenvolvimento da equipe**  
-Apesar de cada integrante estar no primeiro semestre, incentivei a colaboração e ofereci suporte quando necessário, ajudando a equipe a evoluir tecnicamente e a se engajar no projeto.
-
-**Assertividade**  
-Tomei decisões técnicas claras e objetivas no desenvolvimento da aplicação, garantindo que os relatórios e funcionalidades atendessem exatamente aos requisitos do cliente.
+Durante o início do projeto, utilizei minha habilidade de estabelecimento de confiança para criar uma boa relação com a equipe, mesmo sem conhecer ninguém previamente. Aos poucos, construí um ambiente de colaboração e respeito mútuo, o que facilitou o trabalho em grupo e tornou as discussões mais produtivas. Essa confiança foi essencial para o alinhamento das tarefas e para garantir que todos se sentissem à vontade para contribuir.
+Ao longo das sprints, desenvolvi minha comunicação participando ativamente das dailys e interagindo com colegas de forma mais clara e assertiva. Como era um time novo, precisei aprimorar a forma de me expressar, aprendendo a fazer perguntas objetivas, esclarecer dúvidas e expor ideias com segurança. Essa evolução ajudou na agilidade das decisões e na qualidade das entregas.
+Também utilizei minha criatividade para propor melhorias na navegação do sistema e deixando-o mais intuitivo e contribuindo para uma experiência mais agradável. Essa habilidade foi essencial para unir o aspecto técnico ao visual, garantindo um resultado funcional e atrativo.
