@@ -37,6 +37,7 @@ Neste portfólio, apresento os projetos que desenvolvi ao longo da minha trajet�
 - [Contatos](#contatos)
 - [Projetos](#projetos)
   - [1° semestre | 2/2023 - Porygon](#1-semestre--22023)
+  - [2° semestre | 1/2024 - Javali](#2-semestre--22024)
 ---
 
 <h2 align="center">Projetos</h2>
@@ -132,7 +133,7 @@ Motivei o time e acompanhei o desempenho de cada integrante, oferecendo suporte 
 Como Product Owner, tomei decisões diretas para que as entregas corressem conforme o solicitado pelo cliente. Estruturei o trabalho de forma simples e objetiva, garantindo que o time entregasse exatamente o que era esperado, evitando retrabalho e confusões durante a sprint.
 
 --- 
-### 2° semestre | 2/2023  
+### 2° semestre | 1/2024  
 **Projeto:** Sistema de Monitoramento Climático  
 **Empresa parceira:** FATEC São José dos Campos  
 
