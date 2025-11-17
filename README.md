@@ -290,4 +290,137 @@ Ao longo do projeto, trabalhei de forma colaborativa com colegas de backend e fr
 Participei ativamente do planejamento das sprints e da divisão de tarefas no Trello. Mantive o acompanhamento das entregas e documentações, o que contribuiu para a execução eficiente do cronograma e entregas dentro do prazo.  
 
 ---
+### 4° semestre | 1/2025 
+**Projeto:** Editor de polígonos
+**Empresa parceira:** Visiona
 
+---
+
+#### Problema
+As empresas agrícolas que utilizam sistemas de mapeamento geoespacial enfrentam dificuldades em validar e corrigir os polígonos gerados por modelos de inteligência artificial. Atualmente, analistas precisam revisar manualmente diversos talhões utilizando ferramentas dispersas, muitas vezes sem suporte adequado para edição, comparação ou controle de versões.
+
+Além disso, a colaboração entre diferentes perfis — administradores, analistas e consultores — ocorre de maneira pouco estruturada, dificultando o registro do histórico de alterações, a rastreabilidade das revisões e o acompanhamento da produtividade individual.
+
+Em muitos casos, a ausência de um ambiente centralizado para edição e análise geoespacial atrasa o processo de revisão, reduz a qualidade das correções e prejudica o refinamento dos modelos de IA responsáveis pelo mapeamento agrícola.
+
+Também não há uma forma padronizada de medir a performance das correções, o que impede administradores de avaliar a eficiência dos analistas e dificulta o uso dos polígonos revisados como benchmark de qualidade.
+
+---
+
+#### Solução
+A solução oferece um editor interativo de GeoJSON, permitindo que analistas revisem e ajustem os polígonos diretamente no mapa, com ferramentas adequadas para manipulação geométrica e atualização das propriedades associadas. Todas as modificações realizadas passam a ser registradas em um histórico de alterações, garantindo rastreabilidade e permitindo auditorias precisas.
+
+Além disso, o sistema organiza o fluxo de trabalho entre administradores, analistas e consultores por meio de controle de permissões, garantindo que cada tipo de usuário tenha acesso apenas às funcionalidades necessárias. Um dashboard de métricas agrega informações qualitativas e quantitativas sobre as correções, possibilitando o acompanhamento da produtividade da equipe e fornecendo indicadores úteis para o refinamento dos modelos de inteligência artificial.
+
+---
+
+**Link do projeto:** https://github.com/Morpheus-Fatec/API_4S_Visiona_PolygonEditor
+
+**Funcionalidades principais:**  
+Upload de arquivos GeoJSON: permite cadastrar talhões agrícolas e carregar suas geometrias para revisão.
+
+Mapa interativo para visualização e edição: possibilita visualizar, ajustar e redesenhar polígonos diretamente na interface.
+
+Edição de propriedades dos talhões: atualização de informações como nome da fazenda, cultura, área e demais atributos associados.
+
+Histórico de alterações: registra cada modificação realizada nos polígonos, garantindo rastreabilidade.
+
+Controle de permissões: gerencia diferentes níveis de acesso para administradores, analistas e consultores.
+
+Dashboard de métricas: apresenta indicadores qualitativos e quantitativos sobre a performance da IA e dos analistas.
+
+Filtro e busca de talhões: permite localizar áreas específicas usando atributos e classificações.
+
+Exportação de GeoJSON revisado: gera arquivos atualizados para uso no refinamento da IA e em outras aplicações externas.
+
+Monitoramento de produtividade: acompanha o tempo de edição e o volume de talhões revisados por cada analista.
+
+Gestão de usuários: possibilita cadastrar, editar e excluir usuários do sistema.
+
+Notificações de revisão: alerta analistas sobre talhões que precisam ser avaliados ou retrabalhados.
+
+#### Tecnologias utilizadas
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="25"/> Java 17 → linguagem utilizada no desenvolvimento da API
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" height="25"/> Spring Boot 3.4.3 → framework utilizado para criação dos serviços REST e estrutura do backend
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" height="25"/> AWS SDK 2.20.0 → integração com serviços AWS usados no projeto
+
+🌐 Springdoc OpenAPI 2.7.0 → documentação automática da API
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg" height="25"/> Maven 3.8.1 → gerenciamento de dependências do backend
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="25"/> PostgreSQL 15.2 → banco de dados relacional do sistema
+
+🗺️ PostGIS 3.3.3 → extensão geoespacial utilizada para armazenamento e manipulação de geometrias dos talhões
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" height="25"/> 
+
+Vue.js 3.5.13 → framework JavaScript utilizado na construção de interfaces dinâmicas
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" height="25"/> Vue Router 4.5.0 → sistema de rotas utilizado para navegação entre páginas
+
+📦 Pinia 3.0.1 → gerenciamento de estado global da aplicação
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="25"/> Bootstrap 5.3.3 → framework CSS para layout responsivo e estilização
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="25"/> Leaflet 1.9.4 → biblioteca para renderização de mapas interativos
+
+🗺️ Vue Leaflet 0.0.1 → integração do Leaflet com Vue.js
+
+✏️ Leaflet Draw 1.0.4 → edição de polígonos diretamente no mapa
+
+🛰️ Georaster Layer for Leaflet 3.10.0 → exibição de imagens raster no mapa
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="25"/> Axios 1.8.4 → comunicação com a API
+
+📊 Vue Chart.js 5.4.0 → criação dos gráficos do dashboard
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="25"/> Node.js 22.14 → ambiente utilizado para executar e compilar o frontend
+⚡ Vite 6.2.1 → build tool utilizada no frontend
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="25"/> TypeScript 5.8.0 → tipagem estática e maior robustez na implementação
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="25"/> Git → controle de versão
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="25"/> GitHub → repositório remoto e versionamento do código
+
+#### Contribuições pessoais
+Contribuições Pessoais
+Atuei como desenvolvedora front-end, utilizando Vue.js 3, Bootstrap e Chart.js. Fui responsável pela implementação completa da interface do dashboard de métricas, desenvolvendo gráficos interativos (barra, linha e comparativos) e tabelas responsivas para exibir indicadores por talhão, analista e consultor. Modelei a estrutura visual seguindo o wireframe aprovado e organizei o layout em seções funcionais, garantindo responsividade e clareza na análise visual.
+Implementei a interface de gerenciamento de usuários, incluindo a listagem com ações de edição e exclusão, formulário completo de cadastro e edição, validação de campos obrigatórios e suporte à atribuição de múltiplos papéis por usuário. Realizei testes com dados mockados e preparei o fluxo para envio de confirmação por e-mail quando a senha fosse alterada.
+Desenvolvi também a interface do módulo de cadastro de talhões agrícolas, incluindo o upload de arquivos GeoJSON de saída e automático, upload de imagens, edição de propriedades dos talhões, feedback visual e validações de formato. Implementei o agrupamento dos talhões pelo nome e preparei o dicionário de dados estruturado para integração com o backend.
+Além disso, fui responsável pela criação dos templates básicos do sistema, configurando header, navegação e rotas com Vue Router. Modelei as telas de login, mapas, dashboards e configurações, garantindo que o header e a navegação estivessem corretamente aplicados de acordo com as regras do projeto.
+
+#### Hard Skills
+Vue.js 3 / JavaScript / Vuetify: faço/uso com autonomia
+
+Integração com APIs (Axios): faço/uso com autonomia
+
+Git / GitHub (Fluxo de Branches): faço/uso com autonomia
+
+Estruturas de dados aplicadas ao front-end: faço/uso com autonomia
+
+HTML / CSS / Responsividade: faço/uso com ajuda
+
+---
+
+#### Soft Skills
+
+Comunicação
+
+Durante as plannings deste projeto, identifiquei que alguns membros da equipe tinham a expectativa de adicionar novos filtros ao dashboard que não poderiam ser implementados naquele sprint devido à forma como os dados eram enviados pela API. Usei minhas habilidades de comunicação para explicar, de forma clara e técnica, que a API retornava apenas informações consolidadas por mês, impossibilitando gerar métricas diárias ou por operador sem alterações no backend.
+Essa explicação evitou retrabalho e permitiu que o time ajustasse o escopo da sprint de forma realista.
+
+Pensamento Crítico
+
+Em uma das discussões do time, foi sugerido o uso de um gráfico de linhas para todas as métricas. Argumentei, com base na análise dos dados retornados pela API, que os valores de aprovações e reprovações variavam pouco mês a mês — o que tornaria esse tipo de gráfico pouco informativo. Propus utilizar gráficos de barras agrupadas, que representam melhor comparações entre consultores.
+Essa intervenção melhorou a legibilidade do dashboard e foi aceita pela equipe.
+
+Negociação
+
+Durante uma daily, o backend informou que a API demoraria mais tempo para entregar o endpoint de “ações por consultor”. Negociei com o time a priorização de outra parte da interface — a estruturação da tabela com dados estáticos e placeholders — para garantir que o front-end continuasse avançando mesmo sem o endpoint pronto.
+Essa negociação permitiu que o sprint não ficasse bloqueado e manteve o fluxo de entregas.
+
+Trabalho em Equipe
+
+Ao perceber inconsistências entre valores exibidos nos gráficos e os retornados pela API, trabalhei diretamente com um colega do backend para revisar o payload juntos. Identificamos que alguns campos vinham com nomes diferentes do definido na documentação. Colaborei propondo ajustes na normalização dos dados no front-end para evitar que o time precisasse alterar várias rotas no backend.
+Essa cooperação acelerou a estabilização do dashboard e reduziu o número de correções posteriores.
