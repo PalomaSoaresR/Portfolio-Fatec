@@ -149,7 +149,7 @@ Atualmente, existem diversas bases de dados públicas em arquivos CSV. Cada cida
 #### Solução
 O sistema foi desenvolvido para processar arquivos CSV de estações meteorológicas, armazenar os dados em um banco relacional, validar registros suspeitos e gerar relatórios detalhados por cidade e período. Também possibilita o gerenciamento de estações, cidades e unidades de medida, garantindo dados consistentes e acessíveis.
 
-**Link do projeto:** [API-Clima](https://github.com/PalomaSoaresR/API-2-semestre)  
+**Link do projeto:** [Javali](https://github.com/PalomaSoaresR/API-2-semestre)  
 
 **Funcionalidades principais:**  
 - Importação e validação de arquivos CSV  
@@ -219,7 +219,7 @@ Muitas vezes, por falta de tempo ou excesso de tarefas, as atualizações deixam
 O sistema foi desenvolvido com o objetivo de automatizar a captura, armazenamento e exibição de notícias estratégicas e dados provenientes de APIs externas. A aplicação permite o cadastro de portais, jornalistas, tags e APIs, além de realizar web scraping periódico para coleta de novas informações.  
 Exibindo os dados de forma clara, permitindo consultas rápidas e identificação de tendências. O projeto também foi estruturado para, em estágios futuros, integrar algoritmos de inteligência artificial e machine learning para análise preditiva.
 
-**Link do projeto:** [Sistema de Mapeamento de Notícias Estratégicas](https://github.com/PalomaSoaresR/API-3-semestre)
+**Link do projeto:** [Morpheus](https://github.com/PalomaSoaresR/API-3-semestre)
 
 **Funcionalidades principais:**  
 - Cadastro de portais de notícias, jornalistas, tags e APIs  
@@ -327,20 +327,19 @@ Além disso, o sistema organiza o fluxo de trabalho entre administradores, anali
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" height="25"/> **Spring Boot 3.4.3** → framework utilizado para criação dos serviços REST e estrutura do backend
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" height="25"/> **AWS SDK 2.20.0** → integração com serviços AWS usados no projeto
 - 🌐 Springdoc OpenAPI 2.7.0 → documentação automática da API
-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg" height="25"/>** Maven 3.8.1** → gerenciamento de dependências do backend
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg" height="25"/> **Maven 3.8.1** → gerenciamento de dependências do backend
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="25"/> **PostgreSQL 15.2** → banco de dados relacional do sistema
 - 🗺️** PostGIS 3.3.**3 → extensão geoespacial utilizada para armazenamento e manipulação de geometrias dos talhões
-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" height="25"/> 
-- <img src="https://github.com/user-attachments/assets/2edfb503-1745-4538-9cf2-69e50abebe2d" height="25" />** Vue.js 3.5.13** → framework JavaScript utilizado na construção de interfaces dinâmicas
+- <img src="https://github.com/user-attachments/assets/2edfb503-1745-4538-9cf2-69e50abebe2d" height="25" /> **Vue.js 3.5.13** → framework JavaScript utilizado na construção de interfaces dinâmicas
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" height="25"/> **Vue Router 4.5.0** → sistema de rotas utilizado para navegação entre páginas
 - <img src="https://github.com/user-attachments/assets/ad8524c0-f2f0-4084-a75f-0774b25b6aa8" height="25"/> **Pinia 3.0.1** → gerenciamento de estado global da aplicação
-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="25"/>** Bootstrap 5.3.3** → framework CSS para layout responsivo e estilização
-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="25"/>** Leaflet 1.9.4** → biblioteca para renderização de mapas interativos
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="25"/> **Bootstrap 5.3.3** → framework CSS para layout responsivo e estilização
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="25"/> **Leaflet 1.9.4** → biblioteca para renderização de mapas interativos
 - 🗺️ **Vue Leaflet 0.0.1** → integração do Leaflet com Vue.js
 - ✏️ **Leaflet Draw 1.0.4** → edição de polígonos diretamente no mapa
 - 🛰️ **Georaster Layer for Leaflet 3.10.0** → exibição de imagens raster no mapa
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="25"/> **Axios 1.8.4** → comunicação com a API
-- 📊 Vue Chart.js 5.4.0 → criação dos gráficos do dashboard
+- 📊 **Vue Chart.js** 5.4.0 → criação dos gráficos do dashboard
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="25"/> **Node.js 22.14** → ambiente utilizado para executar e compilar o frontend
 - ⚡ **Vite 6.2.1** → build tool utilizada no frontend
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="25"/> **TypeScript 5.8.0** → tipagem estática e maior robustez na implementação
