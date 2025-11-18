@@ -51,9 +51,8 @@ A PBLTeX utiliza uma metodologia de ensino diferenciada chamada PBL (Problem Bas
 
 Atualmente, a instituição não possui um sistema de informação que suporte essa técnica específica. Isso força que o acompanhamento dos ciclos, a coleta dos scores e o cálculo do FEE sejam realizados através de processos manuais ou ferramentas genéricas (como planilhas). Esse método é lento, propenso a erros de cálculo e difícil de escalar à medida que o número de alunos aumenta, tornando a aplicação eficiente da sua principal técnica de ensino um desafio operacional.  
 
-A solução proposta é uma aplicação backend com interface de linha de comando (CLI).
-
 #### Solução
+A solução proposta é uma aplicação backend com interface de linha de comando (CLI).
 Este sistema foi desenvolvido especificamente para a instituição de ensino PBLTeX, especializada em cursos baseados no método PBL. A aplicação permite o gerenciamento dos "ciclos de entregas" e o cálculo do "Fator de Ensino Evolutivo (FEE)", viabilizando a operacionalização da técnica de ensino da instituição.  
 
 Link do projeto: [API-Porygon](https://github.com/PalomaSoaresR/API-Porygon)
