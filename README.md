@@ -1,4 +1,3 @@
-<div>
   <img 
     src="https://capsule-render.vercel.app/api?type=waving&height=115&section=header&reversal=false&fontSize=70&fontColor=00FFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&color=38A0D1" 
     style="width: 100%; height: auto;"
@@ -44,7 +43,7 @@ Neste portfólio, apresento os projetos que desenvolvi ao longo da minha trajet�
 
 ### 1° semestre | 2/2023  
 #### Projeto: Porygon  
-*Empresa parceira: PBLTeX - [FATEC São José dos Campos - Prof. Jessen Vidal](https://fatecsjc-prd.azurewebsites.net/)*  
+**Empresa parceira:** PBLTeX - [FATEC São José dos Campos - Prof. Jessen Vidal](https://fatecsjc-prd.azurewebsites.net/)  
 
 #### Problema
 A PBLTeX utiliza uma metodologia de ensino diferenciada chamada PBL (Problem Based Learning), que depende da gestão de múltiplos "ciclos de entregas" e do registro de "scores parciais" de cada aluno para, ao final, computar o "Fator de Ensino Evolutivo" (FEE).  
@@ -52,10 +51,10 @@ A PBLTeX utiliza uma metodologia de ensino diferenciada chamada PBL (Problem Bas
 Atualmente, a instituição não possui um sistema de informação que suporte essa técnica específica. Isso força que o acompanhamento dos ciclos, a coleta dos scores e o cálculo do FEE sejam realizados através de processos manuais ou ferramentas genéricas (como planilhas). Esse método é lento, propenso a erros de cálculo e difícil de escalar à medida que o número de alunos aumenta, tornando a aplicação eficiente da sua principal técnica de ensino um desafio operacional.  
 
 #### Solução
-A solução proposta é uma aplicação backend com interface de linha de comando (CLI).
-Este sistema foi desenvolvido especificamente para a instituição de ensino PBLTeX, especializada em cursos baseados no método PBL. A aplicação permite o gerenciamento dos "ciclos de entregas" e o cálculo do "Fator de Ensino Evolutivo (FEE)", viabilizando a operacionalização da técnica de ensino da instituição.  
+O sistema foi desenvolvido especificamente para a instituição de ensino PBLTeX, especializada em cursos baseados no método PBL. A aplicação permite o gerenciamento dos "ciclos de entregas" e o cálculo do "Fator de Ensino Evolutivo (FEE)", viabilizando a operacionalização da técnica de ensino da instituição.
+A proposta consiste em uma aplicação backend com interface de linha de comando (CLI), permitindo que administradores e responsáveis acadêmicos realizem operações de forma rápida, direta e automatizada.
 
-Link do projeto: [API-Porygon](https://github.com/PalomaSoaresR/API-Porygon)
+**Link do projeto:** [API-Porygon](https://github.com/PalomaSoaresR/API-Porygon)
 
 **Funcionalidades principais:**  
 - Cadastro de alunos e professores  
@@ -78,7 +77,7 @@ Link do projeto: [API-Porygon](https://github.com/PalomaSoaresR/API-Porygon)
 ---
 
 #### Contribuições pessoais
-Nesse projeto, atuei como **Product Owner**, sendo responsável pelo levantamento e análise de requisitos, além da criação e priorização do **Product Backlog**. Também defini o **Sprint Backlog** e organizei as entregas, garantindo que o fluxo de trabalho seguisse a metodologia Scrum. Realizei testes manuais para validar os critérios de aceitação e desenvolvi o **fluxo de opções do usuário**, mapeando jornadas e interações com o objetivo de otimizar a usabilidade do sistema.
+Nesse projeto, atuei como Product Owner, sendo responsável pelo levantamento e análise de requisitos, além da criação e priorização do Product Backlog. Também defini o Sprint Backlog e organizei as entregas, garantindo que o fluxo de trabalho seguisse a metodologia Scrum. Realizei testes manuais para validar os critérios de aceitação e desenvolvi o fluxo de opções do usuário, mapeando jornadas e interações com o objetivo de otimizar a usabilidade do sistema.
 
 <details>
  <summary>Backlog desenvolvido</summary>
@@ -133,20 +132,19 @@ Como Product Owner, tomei decisões diretas para que as entregas corressem confo
 
 --- 
 ### 2° semestre | 1/2024  
-**Projeto:** Sistema de Monitoramento Climático  
-**Empresa parceira:** FATEC São José dos Campos  
+#### Projeto: Javali  
+**Empresa parceira:** [FATEC São José dos Campos - Prof. Jessen Vidal](https://fatecsjc-prd.azurewebsites.net/)  
 
 ---
 
 #### Problema
 Ter um bom entendimento do clima de uma região é essencial para o planejamento de atividades em diversas áreas. Por exemplo, conhecer a temperatura e umidade média em determinados períodos do ano pode influenciar na escolha do que plantar em uma fazenda.  
-
 Atualmente, existem diversas bases de dados públicas em arquivos CSV. Cada cidade pode ter múltiplas estações de monitoramento, cada uma com formatos diferentes. Isso torna o processamento manual lento, propenso a erros e difícil de escalar.  
 
 ---
 
 #### Solução
-O sistema foi desenvolvido para processar arquivos CSV de estações meteorológicas, armazenar os dados em um **banco relacional**, validar registros suspeitos e gerar relatórios detalhados por cidade e período. Também possibilita o gerenciamento de estações, cidades e unidades de medida, garantindo dados consistentes e acessíveis.
+O sistema foi desenvolvido para processar arquivos CSV de estações meteorológicas, armazenar os dados em um banco relacional, validar registros suspeitos e gerar relatórios detalhados por cidade e período. Também possibilita o gerenciamento de estações, cidades e unidades de medida, garantindo dados consistentes e acessíveis.
 
 **Link do projeto:** [API-Clima](https://github.com/PalomaSoaresR/API-2-semestre)  
 
@@ -163,11 +161,14 @@ O sistema foi desenvolvido para processar arquivos CSV de estações meteorológ
 #### Tecnologias Utilizadas
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="25"/> **GitHub** → hospedagem e controle de versão de código  
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="25"/> **Git** → versionamento e gerenciamento de histórico de código  
-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="25"/> **Visual Studio Code** → ambiente de desenvolvimento utilizado pela equipe
-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="25" alt="java logo"  /> **Java** → linguagem utilizada no desenvolvimento da aplicação, responsável pela implementação da lógica de negócios, regras de validação e geração de relatórios
-- <img src="https://github.com/user-attachments/assets/e87b0ac1-6b48-40f9-8f19-70ca53d617d0" height="25" /> **JDBC (Java Database Connectivity)** → integração da aplicação com o **banco de dados relacional**, possibilitando leitura, escrita e atualização das informações
--  <img src="https://github.com/user-attachments/assets/c4bae489-da63-4af4-b3c8-399300ae1fa4" height="25" /> **Scene Builder** → ferramenta para criação da interface gráfica da aplicação JavaFX de forma visual e intuitiva  
-
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="25"/> **Visual Studio Code** → ambiente de desenvolvimento utilizado pela equipe  
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="25" alt="java logo" /> **Java** → linguagem utilizada no desenvolvimento da aplicação, responsável pela implementação da lógica de negócios, regras de validação e geração de relatórios  
+- <img src="https://github.com/user-attachments/assets/e87b0ac1-6b48-40f9-8f19-70ca53d617d0" height="25" /> **JDBC (Java Database Connectivity)** → integração da aplicação com o banco de dados relacional, possibilitando leitura, escrita e atualização das informações  
+- <img src="https://github.com/user-attachments/assets/9b7da03e-dd30-49cc-ae9e-7b1beb77f90e" height="25" /> **Scene Builder** → ferramenta para criação da interface gráfica da aplicação JavaFX de forma visual e intuitiva
+- <img src="https://github.com/user-attachments/assets/541a7129-aab2-4e14-84c4-56c7ec69fb4f" height="25" /> **JavaFX** → framework utilizado para a construção da interface gráfica, permitindo criação de telas interativas e responsivas  
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="25" /> **Docker** → usado para empacotamento, isolamento e execução da aplicação em containers, garantindo portabilidade e padronização do ambiente  
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg" height="25" /> **Maven** → ferramenta de gerenciamento e automação de dependências e build do projeto Java  
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="25" /> **PostgreSQL** → banco de dados relacional utilizado para armazenamento e gerenciamento das informações persistidas pela aplicação  
 
 
 ---
@@ -200,7 +201,7 @@ Também utilizei minha criatividade para propor melhorias na navegação do sist
 --- 
 
 ### 3° semestre | 2/2024  
-**Projeto:** Sistema de Mapeamento de Notícias Estratégicas  
+#### Projeto: Morpheus
 **Empresa parceira:** 
 
 ---
@@ -279,19 +280,16 @@ Também participei da criação dos filtros dinâmicos para APIs, permitindo bus
 
 #### Soft Skills
 
-**Comunicação:**  
-Durante as reuniões de alinhamento e daily meetings, pratiquei uma comunicação clara e objetiva com a equipe, garantindo que todos compreendessem o andamento das tarefas e prazos. Essa troca constante permitiu identificar bloqueios rapidamente e manter o ritmo do desenvolvimento.  
+**Transparência e Comunicação Assertiva:**
+No final da sprint 2, enfrentei um momento pessoal delicado que poderia comprometer a entrega da minha task no prazo estabelecido. Ao perceber isso, comuniquei imediatamente o meu SM, explicando a situação de forma clara e objetiva. Essa comunicação antecipada permitiu que a equipe revisse o planejamento e recalculasse a rota sem prejudicar o andamento do projeto. Essa postura reforça a importância de manter alinhamento contínuo com o time e agir com responsabilidade diante de imprevistos.
 
 **Colaboração e Trabalho em Equipe:**  
-Ao longo do projeto, trabalhei de forma colaborativa com colegas de backend e front-end, compartilhando ideias e soluções. A colaboração foi essencial para integrar os diferentes módulos da aplicação e garantir a coerência da entrega.  
-
-**Organização e Planejamento:**  
-Participei ativamente do planejamento das sprints e da divisão de tarefas no Trello. Mantive o acompanhamento das entregas e documentações, o que contribuiu para a execução eficiente do cronograma e entregas dentro do prazo.  
+Durante o projeto, mantive uma colaboração contínua com os colegas do backend, alinhando previamente a estrutura do JSON que seria enviada e recebida pela aplicação. Esse alinhamento garantiu que não houvesse divergências na integração entre as partes, especialmente porque o desenvolvimento ocorreu de forma paralela. Essa comunicação ativa reduziu retrabalho e assegurou maior fluidez no processo de integração.
 
 ---
 ### 4° semestre | 1/2025 
-**Projeto:** Editor de polígonos
-**Empresa parceira:** Visiona
+#### Projeto: Demeter
+**Empresa parceira:** [Visiona](https://visionaespacial.com/)
 
 ---
 
