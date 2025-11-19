@@ -46,7 +46,7 @@ Neste portfólio, apresento os projetos que desenvolvi ao longo da minha trajet�
 
 ### 1° semestre | 2/2023  
 #### Projeto: Porygon  
-**Empresa parceira:** PBLTeX - [FATEC São José dos Campos - Prof. Jessen Vidal](https://fatecsjc-prd.azurewebsites.net/)  
+**Empresa parceira:** Professor Lucas Nadalete - utilizando o nome fictício PBLTeX
 
 #### Problema
 A PBLTeX utiliza uma metodologia de ensino diferenciada chamada PBL (Problem Based Learning), que depende da gestão de múltiplos "ciclos de entregas" e do registro de "scores parciais" de cada aluno para, ao final, computar o "Fator de Ensino Evolutivo" (FEE).  
@@ -205,7 +205,7 @@ Também utilizei minha criatividade para propor melhorias na navegação do sist
 
 ### 3° semestre | 2/2024  
 #### Projeto: Morpheus
-**Empresa parceira:** 
+**Empresa parceira:** [GWS](https://www.gsw.com.br/) -  Especializada em desenvolvimento e implantação de soluções inteligentes em Tecnologia da Informação para gestão empresarial, gestão tributária, operações em comércio exterior e CRM
 
 ---
 
@@ -289,7 +289,7 @@ Durante o projeto, mantive uma colaboração contínua com os colegas do backend
 ---
 ### 4° semestre | 1/2025 
 #### Projeto: Demeter
-**Empresa parceira:** [Visiona](https://visionaespacial.com/)
+**Empresa parceira:** [Visiona](https://visionaespacial.com/) - Integração de soluções baseadas em sistemas espaciais
 
 ---
 
@@ -305,7 +305,6 @@ Também não há uma forma padronizada de medir a performance das correções, o
 A solução oferece um editor interativo de GeoJSON, permitindo que analistas revisem e ajustem os polígonos diretamente no mapa, com ferramentas adequadas para manipulação geométrica e atualização das propriedades associadas. Todas as modificações realizadas passam a ser registradas em um histórico de alterações, garantindo rastreabilidade e permitindo auditorias precisas.
 Além disso, o sistema organiza o fluxo de trabalho entre administradores, analistas e consultores por meio de controle de permissões, garantindo que cada tipo de usuário tenha acesso apenas às funcionalidades necessárias. Um dashboard de métricas agrega informações qualitativas e quantitativas sobre as correções, possibilitando o acompanhamento da produtividade da equipe e fornecendo indicadores úteis para o refinamento dos modelos de inteligência artificial.
 
----
 
 **Link do projeto:** [Demeter](https://github.com/PalomaSoaresR/API_4S_Visiona_PolygonEditor)
 
@@ -321,7 +320,7 @@ Além disso, o sistema organiza o fluxo de trabalho entre administradores, anali
 - Monitoramento de produtividade: acompanha o tempo de edição e o volume de talhões revisados por cada analista.
 - Gestão de usuários: possibilita cadastrar, editar e excluir usuários do sistema.
 - Notificações de revisão: alerta analistas sobre talhões que precisam ser avaliados ou retrabalhados.
-
+--- 
 #### Tecnologias utilizadas
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="25"/> **Java 17** → linguagem utilizada no desenvolvimento da API
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" height="25"/> **Spring Boot 3.4.3** → framework utilizado para criação dos serviços REST e estrutura do backend
@@ -345,13 +344,13 @@ Além disso, o sistema organiza o fluxo de trabalho entre administradores, anali
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="25"/> **TypeScript 5.8.0** → tipagem estática e maior robustez na implementação
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="25"/> **Git** → controle de versão
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="25"/> **GitHub** → repositório remoto e versionamento do código
-
+---
 #### Contribuições pessoais
 Atuei como desenvolvedora front-end, utilizando Vue.js 3, Bootstrap e Chart.js. Fui responsável pela implementação completa da interface do dashboard de métricas, desenvolvendo gráficos interativos (barra, linha e comparativos) e tabelas responsivas para exibir indicadores por talhão, analista e consultor. Modelei a estrutura visual seguindo o wireframe aprovado e organizei o layout em seções funcionais, garantindo responsividade e clareza na análise visual.
 Implementei a interface de gerenciamento de usuários, incluindo a listagem com ações de edição e exclusão, formulário completo de cadastro e edição, validação de campos obrigatórios e suporte à atribuição de múltiplos papéis por usuário. Realizei testes com dados mockados e preparei o fluxo para envio de confirmação por e-mail quando a senha fosse alterada.
 Desenvolvi também a interface do módulo de cadastro de talhões agrícolas, incluindo o upload de arquivos GeoJSON de saída e automático, upload de imagens, edição de propriedades dos talhões, feedback visual e validações de formato. Implementei o agrupamento dos talhões pelo nome e preparei o dicionário de dados estruturado para integração com o backend.
 Além disso, modelei as telas de login, mapas, dashboards e configurações, garantindo que o header e a navegação estivessem corretamente aplicados de acordo com as regras do projeto.
-
+---
 #### Hard Skills
 **Vue.js 3 / JavaScript / Vuetify:** faço/uso com autonomia
 **Integração com APIs (Axios):** faço/uso com autonomia
