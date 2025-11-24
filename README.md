@@ -248,7 +248,6 @@ Exibindo os dados de forma clara, permitindo consultas rápidas e identificaçã
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="25"/> **GitHub** → hospedagem do repositório e versionamento do código  
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="25"/> **Visual Studio Code** → utilizado para o desenvolvimento do front-end em Vue.js e back-end em java
 
-
 ---
 
 #### Contribuições pessoais
@@ -258,20 +257,20 @@ Nesse projeto, atuei diretamente no desenvolvimento do front-end da aplicação,
   <br/>
   <img src="https://github.com/user-attachments/assets/bd5aed91-0d68-4483-95f3-952b0d8719b1" width="100%" />
 </details>
-Implementei a tela de gerenciamento de portais de notícias, que permite o cadastro de novos portais, com validações de campos obrigatórios, edição e exclusão com confirmação de ação e associação de tags temáticas, otimizando a organização e filtragem das informações.  
-<br/>
+
+Implementei a tela de gerenciamento de portais de notícias, que permite o cadastro de novos portais, com validações de campos obrigatórios, edição e exclusão com confirmação de ação e associação de tags temáticas, otimizando a organização e filtragem das informações.  </p>
 
 <details>
   <summary><b>Detalhes</b></summary>
   <br/>
   <img src="https://github.com/user-attachments/assets/3c4f000e-f0a8-4349-9a11-d139d381172f" width="100%" />
 </details>
-  <br/>
 
-Além disso, desenvolvi feedbacks visuais de sucesso e erro, atualização automática da lista de portais após cada operação e layout responsivo utilizando Bootstrap, assegurando boa usabilidade em diferentes dispositivos.
-<br/>
+</p>
 
+Além disso, desenvolvi feedbacks visuais de sucesso e erro, atualização automática da lista de portais após cada operação e layout responsivo utilizando Bootstrap, assegurando boa usabilidade em diferentes dispositivos.</p>
 Também participei da criação dos filtros dinâmicos para APIs, permitindo busca por nome, status, data e categoria, facilitando o gerenciamento e localização de fontes específicas dentro do sistema.
+</p>
 <details>
   <summary><b>Detalhes</b></summary>
   <br/>
@@ -369,10 +368,10 @@ Além disso, modelei as telas de login, mapas, dashboards e configurações, gar
 #### Hard Skills
 Abaixo seguem as hards skills desenvolvidas e meus níveis de poreficiência ao final desse projeto.
 
-**Vue.js 3 / JavaScript / Vuetify:** faço/uso com autonomia
-**Integração com APIs (Axios):** faço/uso com autonomia
-**Git / GitHub :** faço/uso com autonomia
-**HTML / CSS / Responsividade:** faço/uso com ajuda
+- **Vue.js 3 / JavaScript / Vuetify:** faço/uso com autonomia
+- **Integração com APIs (Axios):** faço/uso com autonomia
+- **Git / GitHub :** faço/uso com autonomia
+- **HTML / CSS / Responsividade:** faço/uso com ajuda
 
 ---
 
