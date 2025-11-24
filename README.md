@@ -48,6 +48,8 @@ Neste portfólio, apresento os projetos que desenvolvi ao longo da minha trajet�
 #### Projeto: Porygon  
 **Empresa parceira:** Professor Lucas Nadalete - utilizando o nome fictício PBLTeX
 
+---
+
 #### Problema
 A PBLTeX utiliza uma metodologia de ensino diferenciada chamada PBL (Problem Based Learning), que depende da gestão de múltiplos "ciclos de entregas" e do registro de "scores parciais" de cada aluno para, ao final, computar o "Fator de Ensino Evolutivo" (FEE).  
 
@@ -136,7 +138,7 @@ Abaixo seguem as hards skills desenvolvidas e meus níveis de poreficiência ao 
 --- 
 ### 2° semestre | 1/2024  
 #### Projeto: Javali  
-**Empresa parceira:** [FATEC São José dos Campos - Prof. Jessen Vidal](https://fatecsjc-prd.azurewebsites.net/)  
+**Empresa parceira:** Professor Emanuel Mineda 
 
 ---
 
@@ -275,6 +277,7 @@ Também participei da criação dos filtros dinâmicos para APIs, permitindo bus
   <br/>
   <img src="https://github.com/user-attachments/assets/a430400f-16b8-44c6-9df0-073a5196bf8d" width="100%" />
 </details>
+
 ---
 
 #### Hard Skills
