@@ -120,6 +120,7 @@ Nesse projeto, atuei como Product Owner, sendo responsável pelo levantamento e 
 ---
 
 #### Hard Skills
+Abaixo seguem as hards skills desenvolvidas e meus níveis de poreficiência ao final desse projeto.
 - **GitHub / Git**: faço/uso com ajuda  
 - **Python**: faço/uso com ajuda  
 - **Excel (como banco de dados)**: faço/uso com ajuda  
@@ -127,10 +128,10 @@ Nesse projeto, atuei como Product Owner, sendo responsável pelo levantamento e 
 ---
 
 #### Soft Skills
+- Antes de ingressar na faculdade, eu já tinha contato com conceitos de levantamento de requisitos, o que facilitou minha atuação no início do projeto. Utilizei minha comunicação clara para conduzir conversas objetivas com o cliente, fazendo perguntas que ajudaram a entender as necessidades reais do cliente e traduzir essas informações em requisitos estruturados.</p>
 
-Durante as sprints, organizei as atividades do time de forma clara, definindo prioridades de cada atividade e dividindo elas de acordo com as habilidades dos membros da equipe. Isso garantiu que todos soubessem exatamente o que fazer e que as entregas fossem realizadas dentro do prazo estabelecido.<p>
-Motivei o time e acompanhei o desempenho de cada integrante, oferecendo suporte e orientação quando necessário. Incentivei a colaboração e o engajamento, garantindo que todos participassem ativamente e se sentissem parte do projeto, mesmo sendo o primeiro semestre e a equipe ainda iniciante.<p>
-Como Product Owner, tomei decisões diretas para que as entregas corressem conforme o solicitado pelo cliente. Estruturei o trabalho de forma simples e objetiva, garantindo que o time entregasse exatamente o que era esperado, evitando retrabalho e confusões durante a sprint.
+- Durante a segunda sprint, eu e o Scrum Master identificamos que a equipe estava com dificuldade para avançar nas tarefas devido à falta de experiência técnica, já que todos estavam no primeiro semestre. Ao perceber isso, utilizei minha capacidade de liderança e empatia e juntos, decidimos reorganizar o fluxo de trabalho formando duplas, combinando desenvolvedores com níveis de conhecimento complementares. 
+
 
 --- 
 ### 2° semestre | 1/2024  
@@ -187,6 +188,8 @@ Por fim, fui responsável por criar todas as exceptions personalizadas utilizada
 ---
 
 #### Hard Skills
+Abaixo seguem as hards skills desenvolvidas e meus níveis de poreficiência ao final desse projeto.
+
 - **Java Desktop / JDBC**: faço/uso com ajuda  
 - **Banco de Dados Relacional (PostgreSQL)**: faço/uso com ajuda  
 - **Scene Builder (JavaFX)**: faço/uso com autonomia  
@@ -196,9 +199,11 @@ Por fim, fui responsável por criar todas as exceptions personalizadas utilizada
 
 #### Soft Skills
 
-Durante o início do projeto, utilizei minha habilidade de estabelecimento de confiança para criar uma boa relação com a equipe, mesmo sem conhecer ninguém previamente. Aos poucos, construí um ambiente de colaboração e respeito mútuo, o que facilitou o trabalho em grupo e tornou as discussões mais produtivas. Essa confiança foi essencial para o alinhamento das tarefas e para garantir que todos se sentissem à vontade para contribuir.<p>
-Ao longo das sprints, desenvolvi minha comunicação participando ativamente das dailys e interagindo com colegas de forma mais clara e assertiva. Como era um time novo, precisei aprimorar a forma de me expressar, aprendendo a fazer perguntas objetivas, esclarecer dúvidas e expor ideias com segurança. Essa evolução ajudou na agilidade das decisões e na qualidade das entregas.<p>
-Também utilizei minha criatividade para propor melhorias na navegação do sistema e deixando-o mais intuitivo e contribuindo para uma experiência mais agradável. Essa habilidade foi essencial para unir o aspecto técnico ao visual, garantindo um resultado funcional e atrativo.
+- Durante o início do projeto, utilizei minha habilidade de estabelecimento de confiança para criar uma boa relação com a equipe, mesmo sem conhecer ninguém previamente. Aos poucos, construí um ambiente de colaboração e respeito mútuo, o que facilitou o trabalho em grupo e tornou as discussões mais produtivas. Essa confiança foi essencial para o alinhamento das tarefas e para garantir que todos se sentissem à vontade para contribuir.<p>
+
+- Ao longo das sprints, desenvolvi minha comunicação participando ativamente das dailys e interagindo com colegas de forma mais clara e assertiva. Como era um time novo, precisei aprimorar a forma de me expressar, aprendendo a fazer perguntas objetivas, esclarecer dúvidas e expor ideias com segurança. Essa evolução ajudou na agilidade das decisões e na qualidade das entregas.<p>
+
+- Também utilizei minha criatividade para propor melhorias na navegação do sistema e deixando-o mais intuitivo e contribuindo para uma experiência mais agradável. Essa habilidade foi essencial para unir o aspecto técnico ao visual, garantindo um resultado funcional e atrativo.
 
 --- 
 
@@ -273,17 +278,20 @@ Também participei da criação dos filtros dinâmicos para APIs, permitindo bus
 ---
 
 #### Hard Skills
-- **Java / Spring Boot / JPA**: faço/uso com autonomia  
-- **Banco de Dados Relacional (MySQL)**: faço/uso com autonomia  
+Abaixo seguem as hards skills desenvolvidas e meus níveis de poreficiência ao final desse projeto.
+
+- **Java / Spring Boot / JPA**: faço/uso com ajuda  
+- **Banco de Dados Relacional (MySQL)**: faço/uso com ajuda  
 - **Vue.js / JavaScript / Bootstrap**: faço/uso com ajuda  
-- **Git / GitHub**: faço/uso com autonomia  
+- **Git / GitHub**: faço/uso com ajuda  
 
 ---
 
 #### Soft Skills
 
-No final da sprint 2, enfrentei um momento pessoal delicado que poderia comprometer a entrega da minha task no prazo estabelecido. Ao perceber isso, comuniquei imediatamente o meu SM, explicando a situação de forma clara e objetiva. Essa comunicação antecipada permitiu que a equipe revisse o planejamento e recalculasse a rota sem prejudicar o andamento do projeto. Essa postura reforça a importância de manter alinhamento contínuo com o time e agir com responsabilidade diante de imprevistos.<p>
-Durante o projeto, mantive uma colaboração contínua com os colegas do backend, alinhando previamente a estrutura do JSON que seria enviada e recebida pela aplicação. Esse alinhamento garantiu que não houvesse divergências na integração entre as partes, especialmente porque o desenvolvimento ocorreu de forma paralela. Essa comunicação ativa reduziu retrabalho e assegurou maior fluidez no processo de integração.
+- No final da sprint 2, enfrentei um momento pessoal delicado que poderia comprometer a entrega da minha task no prazo estabelecido. Ao perceber isso, comuniquei imediatamente o meu SM, explicando a situação de forma clara e objetiva. Essa comunicação antecipada permitiu que a equipe revisse o planejamento e recalculasse a rota sem prejudicar o andamento do projeto. Essa postura reforça a importância de manter alinhamento contínuo com o time e agir com responsabilidade diante de imprevistos.<p>
+
+- Durante o projeto, mantive uma colaboração contínua com os colegas do backend, alinhando previamente a estrutura do JSON que seria enviada e recebida pela aplicação. Esse alinhamento garantiu que não houvesse divergências na integração entre as partes, especialmente porque o desenvolvimento ocorreu de forma paralela. Essa comunicação ativa reduziu retrabalho e assegurou maior fluidez no processo de integração.
 
 ---
 ### 4° semestre | 1/2025 
@@ -356,20 +364,19 @@ Além disso, modelei as telas de login, mapas, dashboards e configurações, gar
 ---
 
 #### Hard Skills
+Abaixo seguem as hards skills desenvolvidas e meus níveis de poreficiência ao final desse projeto.
+
 **Vue.js 3 / JavaScript / Vuetify:** faço/uso com autonomia
 **Integração com APIs (Axios):** faço/uso com autonomia
 **Git / GitHub :** faço/uso com autonomia
-**Estruturas de dados aplicadas ao front-end:** faço/uso com autonomia
 **HTML / CSS / Responsividade:** faço/uso com ajuda
 
 ---
 
 #### Soft Skills
 
-Durante as plannings deste projeto, identifiquei que alguns membros da equipe tinham a expectativa de adicionar novos filtros ao dashboard que não poderiam ser implementados naquele sprint devido à forma como os dados eram enviados pela API. Usei minhas habilidades de comunicação para explicar, de forma clara e técnica, que a API retornava apenas informações consolidadas por mês, impossibilitando gerar métricas diárias ou por operador sem alterações no backend.
-Essa explicação evitou retrabalho e permitiu que o time ajustasse o escopo da sprint de forma realista.<p>
-Em uma das discussões do time, foi sugerido o uso de um gráfico de linhas para todas as métricas. Argumentei, com base na análise dos dados retornados pela API, que os valores de aprovações e reprovações variavam pouco mês a mês — o que tornaria esse tipo de gráfico pouco informativo. Propus utilizar gráficos de barras agrupadas, que representam melhor comparações entre consultores.
-Essa intervenção melhorou a legibilidade do dashboard e foi aceita pela equipe.<p>
-Durante uma daily, o backend informou que a API demoraria mais tempo para entregar um endpoint. Negociei com o time a priorização de outra parte da interface  para garantir que o front-end continuasse avançando mesmo sem o endpoint pronto.
-Essa negociação permitiu que o sprint não ficasse bloqueado e manteve o fluxo de entregas.<p>
-Durante o levantamento das métricas necessárias para o dashboard, trabalhei em conjunto com um colega para organizar as informações de forma estruturada. Fizemos esse mapeamento de maneira rápida e eficiente, mantendo um fluxo dinâmico de troca de ideias que facilitou a definição precisa dos indicadores essenciais para o projeto. Essa cooperação acelerou a estabilização do dashboard e reduziu o número de correções posteriores.
+- No decorrer de uma planning, identifiquei que alguns membros da equipe tinham a expectativa de adicionar novos filtros ao dashboard que não poderiam ser implementados naquele sprint devido à forma como os dados eram enviados pela API. Usei minhas habilidades de comunicação para explicar, de forma clara e técnica, que a API retornava apenas informações consolidadas por mês, impossibilitando gerar métricas diárias ou por operador sem alterações no backend, evitando retrabalho e permitindo que o time ajustasse o escopo da sprint de forma realista.<p>
+
+- Em uma daily, o backend informou que a API demoraria mais tempo para entregar um endpoint. Negociei com o time a priorização de outra parte da interface para garantir que o front-end continuasse avançando mesmo sem o endpoint pronto. Isso fez com que que a sprint não ficasse bloqueada e manteve o fluxo de entregas.<p>
+
+- Durante o levantamento das métricas necessárias para o dashboard, trabalhei em conjunto com um colega para organizar as informações de forma estruturada. Fizemos esse mapeamento de maneira rápida e eficiente, mantendo um fluxo dinâmico de troca de ideias que facilitou a definição precisa dos indicadores essenciais para o projeto. Essa cooperação acelerou a estabilização do dashboard e reduziu o número de correções posteriores.
