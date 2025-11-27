@@ -122,7 +122,7 @@ Nesse projeto, atuei como Product Owner, sendo responsável pelo levantamento e 
 ---
 
 #### Hard Skills
-Abaixo seguem as hards skills desenvolvidas e meus níveis de poreficiência ao final desse projeto.
+Abaixo seguem as hards skills desenvolvidas e meus níveis de proficiência ao final desse projeto.
 - **GitHub / Git**: faço/uso com ajuda  
 - **Python**: faço/uso com ajuda  
 - **Excel (como banco de dados)**: faço/uso com ajuda  
@@ -190,8 +190,7 @@ Por fim, fui responsável por criar todas as exceptions personalizadas utilizada
 ---
 
 #### Hard Skills
-Abaixo seguem as hards skills desenvolvidas e meus níveis de poreficiência ao final desse projeto.
-
+Abaixo seguem as hards skills desenvolvidas e meus níveis de proficiência ao final desse projeto.
 - **Java Desktop / JDBC**: faço/uso com ajuda  
 - **Banco de Dados Relacional (PostgreSQL)**: faço/uso com ajuda  
 - **Scene Builder (JavaFX)**: faço/uso com autonomia  
@@ -280,7 +279,7 @@ Também participei da criação dos filtros dinâmicos para APIs, permitindo bus
 ---
 
 #### Hard Skills
-Abaixo seguem as hards skills desenvolvidas e meus níveis de poreficiência ao final desse projeto.
+Abaixo seguem as hards skills desenvolvidas e meus níveis de proficiência ao final desse projeto.
 
 - **Java / Spring Boot / JPA**: faço/uso com ajuda  
 - **Banco de Dados Relacional (MySQL)**: faço/uso com ajuda  
@@ -366,7 +365,7 @@ Além disso, modelei as telas de login, mapas, dashboards e configurações, gar
 ---
 
 #### Hard Skills
-Abaixo seguem as hards skills desenvolvidas e meus níveis de poreficiência ao final desse projeto.
+Abaixo seguem as hards skills desenvolvidas e meus níveis de proficiência ao final desse projeto.
 
 - **Vue.js 3 / JavaScript / Vuetify:** faço/uso com autonomia
 - **Integração com APIs (Axios):** faço/uso com autonomia
