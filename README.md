@@ -39,6 +39,7 @@ Neste portfólio, apresento os projetos que desenvolvi ao longo da minha trajet�
   - [2° semestre | 1/2024 - Javali](#2-semestre--12024)
   - [3° semestre | 2/2024 - Morpheus](#3-semestre--22024)
   - [4° semestre | 1/2025 - Demeter](#4-semestre--12025)
+  - [5° semestre | 2/2025 - Jibóia](#5-semestre--22025)
   
 ---
 
@@ -381,3 +382,180 @@ Abaixo seguem as hards skills desenvolvidas e meus níveis de proficiência ao f
 - Em uma daily, o backend informou que a API demoraria mais tempo para entregar um endpoint. Negociei com o time a priorização de outra parte da interface para garantir que o front-end continuasse avançando mesmo sem o endpoint pronto. Isso fez com que que a sprint não ficasse bloqueada e manteve o fluxo de entregas.<p>
 
 - Durante o levantamento das métricas necessárias para o dashboard, trabalhei em conjunto com um colega para organizar as informações de forma estruturada. Fizemos esse mapeamento de maneira rápida e eficiente, mantendo um fluxo dinâmico de troca de ideias que facilitou a definição precisa dos indicadores essenciais para o projeto. Essa cooperação acelerou a estabilização do dashboard e reduziu o número de correções posteriores.
+
+---
+### 5° semestre | 2/2025 
+#### Projeto: Jibóia
+**Empresa parceira:** [Necto](https://necto.com.br/) - Consultoria especializada em análise de dados e inteligência de negócios
+
+---
+
+#### Problema
+Empresas que utilizam Jira para gerenciamento de projetos enfrentam dificuldades em extrair insights consolidados sobre o andamento de suas equipes. Os dados brutos do Jira não oferecem visibilidade clara sobre performance, esforço da equipe e métricas financeiras de forma integrada. Além disso, a análise manual desses dados é demorada, propensa a erros e não permite o acompanhamento em tempo real de indicadores importantes para a tomada de decisão.
+
+Gestores precisam de uma visão consolidada que permita:
+- Identificar rapidamente o status de múltiplos projetos
+- Acompanhar a produtividade individual de membros da equipe
+- Analisar custos versus esforço dedicado
+- Gerar relatórios de performance com métricas ágeis (Burndown, Taxa de conclusão)
+- Garantir que dados sensíveis de custo sejam acessíveis apenas a usuários com permissão
+
+---
+
+#### Solução
+Jibóia é um sistema de **ETL (Extract, Transform, Load)** que consome dados diretamente da API do Jira, consolida-os em um data warehouse e transforma informações brutas em métricas úteis para acompanhamento de projetos. O sistema oferece dashboards detalhados em nível de projetos e issues, proporcionando visibilidade total sobre o andamento, esforço e performance das equipes.
+
+A arquitetura do sistema separa a responsabilidade entre backend (processamento de dados e APIs) e frontend (visualização e interação), utilizando Docker para garantir portabilidade e facilitar o deployment em diferentes ambientes.
+
+**Link do projeto:** [Jiboia](https://github.com/c137santos/FATEC-API-5-SEMESTRE)
+
+**Funcionalidades principais:**  
+- **Sincronização com Jira:** ETL automatizado que coleta dados de projetos, issues, usuários e horas trabalhadas via API do Jira  
+- **Dashboard de Visão Geral:** Apresenta a saúde consolidada de todos os projetos com indicadores visuais (gráficos de linhas, barras e rosca)  
+- **Dashboard Detalhado por Projeto:** Fornece métricas ágeis como Burndown Chart, movimentação de issues (Pendentes, Em Andamento, Concluído) e análise de custo  
+- **Visualização de Issues:** Listagem tabular de issues com detalhes de autor, ID, data de criação, tempo total gasto e status  
+- **Gestão de Custos:** Cadastro e análise do valor/hora de cada desenvolvedor, cálculo do custo total do projeto (horas × valor_hora)  
+- **Gestão de Usuários e Controle de Acesso:** Sistema de permissões em 4 níveis (Administrador, Gerente, Líder de Equipe, Membro de Equipe)  
+- **Filtros Avançados:** Aplicação de filtros por intervalo de datas, por membro da equipe e por status de issue  
+- **Relatórios de Métricas:** Indicadores KPI como total de horas, quantidade de issues, taxa de conclusão e tempo médio de resolução  
+- **Cron Jobs Agendados:** Tarefas automáticas para sincronização periódica de dados e health checks do sistema
+
+---
+
+#### Tecnologias Utilizadas
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="25"/> **Python 3.11** → linguagem utilizada no desenvolvimento do backend
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-original.svg" height="25"/> **Django 5.x** → framework web utilizado para construção da API e processamento de dados
+- 🔄 **Django Crontab** → agendamento de tarefas e sincronizações automáticas
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" height="25"/> **Vue.js 3** → framework JavaScript utilizado para construção de interfaces reativas
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="25"/> **TypeScript** → tipagem estática no frontend
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="25"/> **JavaScript (ES6+)** → linguagem de scripting do frontend
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="25"/> **PostgreSQL 15** → banco de dados relacional para armazenamento consolidado
+- 📊 **Chart.js** → biblioteca para criação de gráficos interativos (Burndown, linhas, barras)
+- 🔗 **Axios** → cliente HTTP para comunicação entre frontend e API
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="25"/> **Docker & Docker Compose** → containerização e orquestração de serviços
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" height="25"/> **Nginx** → servidor web para servir o frontend e fazer proxy reverso da API
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" height="25"/> **AWS** → infraestrutura cloud para deployment
+- 🔒 **JWT (JSON Web Tokens)** → autenticação e autorização de usuários
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="25"/> **Git** → controle de versão
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="25"/> **GitHub** → repositório remoto
+- 🔍 **SonarQube** → análise de qualidade de código
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="25"/> **Figma** → prototipagem e design de interfaces
+- 🗄️ **DBeaver** → gerenciamento e exploração do banco de dados
+
+---
+
+#### Contribuições Pessoais
+
+Neste projeto, atuei em dois momentos distintos com funções diferentes: 
+
+Nas sprints 1 e 2 fiz parte do time [Never Say Never Company](https://github.com/Never-Say-Never-Company/swag).
+Trabalhei no desenvolvimento do backend com Python, Django e MongoDB. Fui responsável pela integração com a API do Jira para coleta e persistência de dados de usuários, implementando a feature de busca dos usuários retornados pela API e seu armazenamento no MongoDB. Também contribuí para a segurança da aplicação ao implementar a integração com o AWS Secrets Manager, garantindo que credenciais de autenticação do Jira fossem armazenadas de forma segura, sem exposição no código-fonte. Participei ativamente do processo de code review da equipe.
+
+Durante o desenvolvimento, identificamos que a escolha do banco de dados para o ambiente de deploy não atendia ao que o cliente esperava, o projeto utilizava MongoDB, mas o cliente havia especificado SQLServer para o Data Warehouse. Diante disso, a equipe tomou a decisão estratégica de se unir ao grupo Neurodivertidamente.
+
+Ao ingressar no novo grupo, assumi o papel de Product Owner, sendo responsável pela condução da última sprint. Planejei e priorizei as entregas da Sprint 3 (User Stories 9 a 12), que incluíam o cadastro de usuários com controle de acesso por perfil, métricas de taxa de conclusão, filtros avançados por data e projeto, e o cálculo do custo total por horas trabalhadas. Acompanhei as entregas, realizei validações manuais dos critérios de aceitação com dados reais da API da Necto e documentei os artefatos no repositório.
+
+---
+
+###### Hard Skills
+Abaixo seguem as hard skills desenvolvidas e meus níveis de proficiência ao final desse projeto.
+
+- **Python / Django:** faço/uso com ajuda
+- **MongoDB:** faço/uso com ajuda
+- **AWS Secrets Manager:** faço/uso com ajuda
+- **Integração com APIs REST:** faço/uso com ajuda
+- **Levantamento e Documentação de Requisitos:** faço/uso com autonomia
+- **Escrita de Critérios de Aceitação (Given/When/Then):** faço/uso com autonomia
+- **Gestão de Product Backlog / Story Points:** faço/uso com autonomia
+- **Git / GitHub:** faço/uso com autonomia
+
+---
+
+#### Soft Skills
+
+- **Tomada de decisão sob pressão:** ao identificar o erro de arquitetura, a equipe não esperou — avaliou o impacto e agiu, unindo-se ao outro grupo para garantir uma entrega com qualidade.
+
+- **Adaptabilidade:** assumir o papel de PO em uma equipe nova, com contexto já em andamento, exigiu leitura rápida do projeto e integração imediata.
+
+- **Responsabilidade e honestidade:** reconhecer o problema cedo e buscar uma solução em vez de insistir em uma entrega ruim demonstra maturidade profissional.
+
+- **Comunicação:** como PO, traduzi as necessidades do cliente em User Stories claras com critérios objetivos para a equipe técnica.
+
+-----
+
+### 6° semestre | 1/2026  
+
+#### Projeto: Thunderstone  
+**Empresa parceira:** Tecsys - Empresa especializada em tecnologias de telemetria para sistemas de distribuição de energia elétrica
+
+---
+
+#### Problema
+As empresas do setor elétrico precisam analisar grandes volumes de dados regulatórios da ANEEL para planejar a expansão e manutenção da infraestrutura de distribuição de energia. Atualmente, esse processamento é feito de forma manual e fragmentada, tornando difícil identificar seções críticas da rede, calcular perdas técnicas e não-técnicas com precisão e priorizar onde instalar sensores de telemetria.  
+Sem uma plataforma centralizada, a tomada de decisão estratégica se torna lenta, sujeita a erros e incapaz de escalar com o volume crescente de dados disponíveis, comprometendo o planejamento e a expansão das tecnologias de telemetria.
+
+---
+
+#### Solução
+O sistema foi desenvolvido para processar dados da ANEEL em larga escala, padronizando os cálculos de perdas e traduzindo informações brutas em visualizações estratégicas. A plataforma oferece rankings de criticidade, mapas de calor georreferenciados e comparativos de perdas técnicas e não-técnicas, permitindo que analistas identifiquem rapidamente as seções mais críticas da rede elétrica e priorizem onde expandir as tecnologias de telemetria da Tecsys.
+
+**Link do projeto:** [Thunderstone](https://github.com/PalomaSoaresR/FATEC-API-6-SEMESTRE)
+
+**Funcionalidades principais:**  
+- Ranking com Índice de Criticidade (DEC/FEC) por circuito  
+- Gráfico de barras ordenado por pontuação SAM para priorização de sensores  
+- Análise comparativa de Perdas Técnicas e Não-Técnicas (PT/PNT em MWh)  
+- Ranking de extensão de média tensão (TAM)  
+- Mapas de calor georreferenciados destacando circuitos críticos  
+- Geração automática de relatórios em PDF com consolidação de análises  
+- Sistema de autenticação com credenciais corporativas  
+- Envio de relatórios por e-mail  
+- Conformidade com LGPD e rastreabilidade de ações (auditoria)  
+
+---
+
+#### Tecnologias Utilizadas
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="25"/> **GitHub** → hospedagem e controle de versão de código  
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="25"/> **Git** → versionamento e gerenciamento de histórico de código  
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="25"/> **Python** → linguagem de programação utilizada no backend  
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" height="25"/> **FastAPI** → framework para construção da API REST  
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" height="25"/> **Vue.js** → framework JavaScript utilizado no frontend para interfaces dinâmicas  
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="25"/> **MongoDB** → banco de dados NoSQL utilizado para armazenamento dos dados da ANEEL  
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="25"/> **PostgreSQL** → banco de dados relacional para dados estruturados  
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="25"/> **Docker / Docker Compose** → containerização e orquestração dos serviços da aplicação  
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="25"/> **Google Colab / Jupyter** → prototipagem e validação de fórmulas matemáticas e cálculos energéticos  
+- 🗄️ **DBeaver** → administração e consulta dos bancos de dados  
+
+---
+
+#### Contribuições pessoais
+Nesse projeto, atuei como Product Owner, sendo responsável pelo levantamento e análise de requisitos em um domínio técnico complexo — dados regulatórios da ANEEL para distribuição de energia elétrica. Criei e priorizei o Product Backlog com 12 histórias de usuário distribuídas em três sprints, e defini os critérios de DoR (Definition of Ready) e DoD (Definition of Done) para padronizar a qualidade das entregas ao longo de todo o projeto.
+
+Mantive a documentação do projeto atualizada durante todo o desenvolvimento, incluindo a estruturação dos requisitos funcionais, atualização do backlog a cada sprint e o registro do calendário de entregas. Também organizei os notebooks de Google Colab desenvolvidos como Prova de Conceito (PoC), movendo-os para um diretório dedicado e criando documentação explicando o propósito de cada um — validação das fórmulas de Criticidade (DEC/FEC), SAM, Heatmap, PT/PNT e TAM antes da implementação oficial no backend.
+
+**Validação e Alinhamento Contínuo com o Cliente:**
+Uma das minhas principais contribuições foi garantir que o projeto estivesse sempre alinhado com as expectativas da Tecsys. Após cada sprint, criei **mapas de calor consolidados** que visualizavam a saúde geral dos indicadores (Criticidade, Perdas Técnicas/Não-Técnicas, TAM) e os apresentava ao cliente para validar se estávamos no caminho certo. Esses mapas permitiram que a Tecsys identificasse rapidamente se as análises estavam convergindo para as prioridades corretas da rede elétrica.
+
+Mantive um ciclo contínuo de feedback: validava todas as entregas da sprint com o cliente antes de considerá-las finalizadas, enviava os resultados das análises e confirmávamos se os rankings, gráficos e mapas de calor respondiam às necessidades reais do negócio. Quando necessário, ajustava o backlog e o escopo técnico com base nesse feedback, garantindo que as próximas sprints fossem ainda mais assertivas. Essa prática de validação antecipada eliminou retrabalhos e garantiu que o produto final fosse exatamente o que a Tecsys esperava para suportar sua estratégia de expansão de telemetria.
+
+Além das responsabilidades de PO, contribuí tecnicamente implementando o frontend das telas de autenticação — login, cadastro e gerenciamento de perfil —, utilizando Petite-Vue para a interface e configurando o middleware CORS no backend FastAPI para viabilizar a integração entre frontend e backend. Também adicionei o serviço Nginx no Docker Compose para servir o frontend adequadamente.
+
+---
+
+#### Hard Skills
+Abaixo seguem as hards skills desenvolvidas e meus níveis de proficiência ao final desse projeto.
+- **Python / FastAPI**: faço/uso com ajuda  
+- **Vue.js / HTML / CSS**: faço/uso com ajuda  
+- **MongoDB / PostgreSQL**: faço/uso com ajuda  
+- **Docker / Nginx**: faço/uso com ajuda  
+- **Git / GitHub**: faço/uso com autonomia  
+
+---
+
+#### Soft Skills
+
+- Atuar como PO em um domínio que eu não dominava previamente — distribuição de energia elétrica e regulamentações da ANEEL — exigiu que eu desenvolvesse rapidamente a capacidade de aprender sobre um tema novo para escrever histórias de usuário que fossem ao mesmo tempo significativas para o negócio e tecnicamente viáveis. Utilizei conversas com a empresa parceira e análise dos dados disponíveis para garantir que o backlog refletisse de fato as necessidades reais do projeto, sem criar expectativas desalinhadas com o que seria possível entregar.
+
+- Ao definir o DoR e o DoD do projeto, percebi que membros da equipe tinham interpretações diferentes sobre o que significava uma história "pronta para desenvolvimento". Conduzi um alinhamento com o time, explicando os critérios com exemplos concretos retirados do próprio backlog. Esse processo reduziu retrabalho nas sprints seguintes e tornou as plannings mais objetivas, pois todos passaram a compartilhar a mesma compreensão sobre o padrão de qualidade esperado em cada entrega.
+
+- Identifiquei que a equipe precisava de apoio para não atrasar a entrega da sprint e assumi tarefas de desenvolvimento em paralelo ao papel de PO, implementando o frontend de autenticação. Essa transição entre responsabilidades de produto e código garantiu que as entregas fossem mantidas no prazo sem sobrecarregar os demais membros, demonstrando adaptabilidade e comprometimento com o resultado coletivo da equipe.
