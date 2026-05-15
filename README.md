@@ -457,7 +457,7 @@ Ao ingressar no novo grupo, assumi o papel de Product Owner, sendo responsável 
 
 ---
 
-###### Hard Skills
+#### Hard Skills
 Abaixo seguem as hard skills desenvolvidas e meus níveis de proficiência ao final desse projeto.
 
 - **Python / Django:** faço/uso com ajuda
@@ -473,20 +473,18 @@ Abaixo seguem as hard skills desenvolvidas e meus níveis de proficiência ao fi
 
 #### Soft Skills
 
-- **Tomada de decisão sob pressão:** ao identificar o erro de arquitetura, a equipe não esperou — avaliou o impacto e agiu, unindo-se ao outro grupo para garantir uma entrega com qualidade.
+- Ao identificar o erro de arquitetura, a equipe não esperou, avaliou o impacto e tomou a decição de , unir-se ao outro grupo para garantir uma entrega com qualidade, mesmo sob pressão de ser a 3° sprint.
 
-- **Adaptabilidade:** assumir o papel de PO em uma equipe nova, com contexto já em andamento, exigiu leitura rápida do projeto e integração imediata.
+- Assumir o papel de PO em uma equipe nova, com contexto já em andamento, exigiu leitura rápida do projeto, integração imediata e adaptabilidade rápida.
 
-- **Responsabilidade e honestidade:** reconhecer o problema cedo e buscar uma solução em vez de insistir em uma entrega ruim demonstra maturidade profissional.
-
-- **Comunicação:** como PO, traduzi as necessidades do cliente em User Stories claras com critérios objetivos para a equipe técnica.
+- Como PO, traduzi as necessidades do cliente em User Stories claras com critérios objetivos para a equipe técnica.
 
 -----
 
 ### 6° semestre | 1/2026  
 
 #### Projeto: Thunderstone  
-**Empresa parceira:** Tecsys - Empresa especializada em tecnologias de telemetria para sistemas de distribuição de energia elétrica
+**Empresa parceira:** [Tecsys](https://www.tecsysbrasil.com.br/) - Empresa especializada em tecnologias de telemetria para sistemas de distribuição de energia elétrica
 
 ---
 
@@ -497,16 +495,16 @@ Sem uma plataforma centralizada, a tomada de decisão estratégica se torna lent
 ---
 
 #### Solução
-O sistema foi desenvolvido para processar dados da ANEEL em larga escala, padronizando os cálculos de perdas e traduzindo informações brutas em visualizações estratégicas. A plataforma oferece rankings de criticidade, mapas de calor georreferenciados e comparativos de perdas técnicas e não-técnicas, permitindo que analistas identifiquem rapidamente as seções mais críticas da rede elétrica e priorizem onde expandir as tecnologias de telemetria da Tecsys.
+O sistema Thunderstone foi desenvolvido para processar dados da ANEEL em larga escala, padronizando os cálculos de perdas e traduzindo informações brutas em visualizações estratégicas. A plataforma oferece rankings de criticidade, mapas de calor georreferenciados e comparativos de perdas técnicas e não-técnicas, permitindo que analistas identifiquem rapidamente as seções mais críticas da rede elétrica e priorizem onde expandir as tecnologias de telemetria da Tecsys.
 
 **Link do projeto:** [Thunderstone](https://github.com/PalomaSoaresR/FATEC-API-6-SEMESTRE)
 
 **Funcionalidades principais:**  
-- Ranking com Índice de Criticidade (DEC/FEC) por circuito  
+- Ranking com Índice de Criticidade (DEC/FEC) por conjunto  
 - Gráfico de barras ordenado por pontuação SAM para priorização de sensores  
 - Análise comparativa de Perdas Técnicas e Não-Técnicas (PT/PNT em MWh)  
 - Ranking de extensão de média tensão (TAM)  
-- Mapas de calor georreferenciados destacando circuitos críticos  
+- Mapas de calor georreferenciados destacando circuitos críticos com base no índice de criticidade 
 - Geração automática de relatórios em PDF com consolidação de análises  
 - Sistema de autenticação com credenciais corporativas  
 - Envio de relatórios por e-mail  
@@ -529,16 +527,20 @@ O sistema foi desenvolvido para processar dados da ANEEL em larga escala, padron
 ---
 
 #### Contribuições pessoais
-Nesse projeto, atuei como Product Owner, sendo responsável pelo levantamento e análise de requisitos em um domínio técnico complexo — dados regulatórios da ANEEL para distribuição de energia elétrica. Criei e priorizei o Product Backlog com 12 histórias de usuário distribuídas em três sprints, e defini os critérios de DoR (Definition of Ready) e DoD (Definition of Done) para padronizar a qualidade das entregas ao longo de todo o projeto.
 
-Mantive a documentação do projeto atualizada durante todo o desenvolvimento, incluindo a estruturação dos requisitos funcionais, atualização do backlog a cada sprint e o registro do calendário de entregas. Também organizei os notebooks de Google Colab desenvolvidos como Prova de Conceito (PoC), movendo-os para um diretório dedicado e criando documentação explicando o propósito de cada um — validação das fórmulas de Criticidade (DEC/FEC), SAM, Heatmap, PT/PNT e TAM antes da implementação oficial no backend.
+Neste projeto atuei como Product Owner, sendo responsável pela ponte entre as necessidades da Tecsys e as entregas do time de desenvolvimento.
 
-**Validação e Alinhamento Contínuo com o Cliente:**
-Uma das minhas principais contribuições foi garantir que o projeto estivesse sempre alinhado com as expectativas da Tecsys. Após cada sprint, criei **mapas de calor consolidados** que visualizavam a saúde geral dos indicadores (Criticidade, Perdas Técnicas/Não-Técnicas, TAM) e os apresentava ao cliente para validar se estávamos no caminho certo. Esses mapas permitiram que a Tecsys identificasse rapidamente se as análises estavam convergindo para as prioridades corretas da rede elétrica.
+Iniciei o projeto com o levantamento de requisitos diretamente com o cliente, alinhando expectativas ao que era tecnicamente viável entregar dentro do prazo. Conduzi também a análise dos dados da ANEEL que seriam trabalhados: pesquisei as fontes, entendi a estrutura dos dados e documentei as informações relevantes para o time.
 
-Mantive um ciclo contínuo de feedback: validava todas as entregas da sprint com o cliente antes de considerá-las finalizadas, enviava os resultados das análises e confirmávamos se os rankings, gráficos e mapas de calor respondiam às necessidades reais do negócio. Quando necessário, ajustava o backlog e o escopo técnico com base nesse feedback, garantindo que as próximas sprints fossem ainda mais assertivas. Essa prática de validação antecipada eliminou retrabalhos e garantiu que o produto final fosse exatamente o que a Tecsys esperava para suportar sua estratégia de expansão de telemetria.
+Para construir cada história de usuário, conduzia sessões de brainstorming com o time. A necessidade do cliente era escrita na lousa, discutida e desenhada coletivamente, garantindo que todos os desenvolvedores entendessem o produto como um todo e não apenas suas tarefas individuais. Após essas reuniões, eu refinava as ideias levantadas e formalizava as histórias. Essa prática reduziu significativamente as paradas por dúvidas durante o desenvolvimento, já que as decisões de escopo haviam sido tomadas e compreendidas por todos desde o início.
 
-Além das responsabilidades de PO, contribuí tecnicamente implementando o frontend das telas de autenticação — login, cadastro e gerenciamento de perfil —, utilizando Petite-Vue para a interface e configurando o middleware CORS no backend FastAPI para viabilizar a integração entre frontend e backend. Também adicionei o serviço Nginx no Docker Compose para servir o frontend adequadamente.
+Criei e priorizei o Product Backlog com 12 histórias de usuário distribuídas em três sprints, definindo os critérios de DoR (Definition of Ready) e DoD (Definition of Done) para cada uma delas, padronizando a qualidade das entregas ao longo de todo o projeto. Mantive a documentação atualizada durante todo o desenvolvimento, incluindo requisitos funcionais, backlog de cada sprint e calendário de entregas.
+
+Na primeira sprint, desenvolvi uma POC do mapa de calor para validar com o cliente se a visualização atendia ao que ele esperava. O cliente apontou que preferia ver as linhas de redes em vez das áreas do mapa  e, com base nesse feedback, ajustamos e entregamos exatamente o que ele precisava. Essa experiência moldou nossa abordagem de validação para as sprints seguintes.
+
+Mantive um ciclo contínuo de feedback, validando todas as entregas com a Tecsys antes de considerá-las finalizadas. A cada sprint, enviava os resultados das análises e confirmava se os rankings, gráficos e mapas de calor respondiam às necessidades reais do negócio. Quando necessário, ajustava o backlog e o escopo com base nesse retorno, tornando cada sprint mais assertiva que a anterior. Essa prática eliminou retrabalhos e garantiu que o produto final fosse exatamente o que a Tecsys esperava para suportar sua estratégia de expansão de telemetria.
+
+Além das responsabilidades de PO, contribuí tecnicamente implementando o frontend das telas de autenticação: login, cadastro e gerenciamento de perfil, utilizando Petite-Vue.
 
 ---
 
@@ -546,16 +548,16 @@ Além das responsabilidades de PO, contribuí tecnicamente implementando o front
 Abaixo seguem as hards skills desenvolvidas e meus níveis de proficiência ao final desse projeto.
 - **Python / FastAPI**: faço/uso com ajuda  
 - **Vue.js / HTML / CSS**: faço/uso com ajuda  
-- **MongoDB / PostgreSQL**: faço/uso com ajuda  
-- **Docker / Nginx**: faço/uso com ajuda  
+- **MongoDB**: faço/uso com ajuda 
+- **PostgreSQL**: faço/uso com ajuda  
 - **Git / GitHub**: faço/uso com autonomia  
 
 ---
 
 #### Soft Skills
 
-- Atuar como PO em um domínio que eu não dominava previamente — distribuição de energia elétrica e regulamentações da ANEEL — exigiu que eu desenvolvesse rapidamente a capacidade de aprender sobre um tema novo para escrever histórias de usuário que fossem ao mesmo tempo significativas para o negócio e tecnicamente viáveis. Utilizei conversas com a empresa parceira e análise dos dados disponíveis para garantir que o backlog refletisse de fato as necessidades reais do projeto, sem criar expectativas desalinhadas com o que seria possível entregar.
+- Atuar como PO em um domínio que eu não dominava, distribuição de energia elétrica e regulamentações da ANEEL, exigiu aprender rapidamente sobre um tema complexo para escrever histórias de usuário que fossem ao mesmo tempo significativas para o negócio e viáveis tecnicamente. Tendo um aprendizado e adaptação rápida.
 
-- Ao definir o DoR e o DoD do projeto, percebi que membros da equipe tinham interpretações diferentes sobre o que significava uma história "pronta para desenvolvimento". Conduzi um alinhamento com o time, explicando os critérios com exemplos concretos retirados do próprio backlog. Esse processo reduziu retrabalho nas sprints seguintes e tornou as plannings mais objetivas, pois todos passaram a compartilhar a mesma compreensão sobre o padrão de qualidade esperado em cada entrega.
+- Ao invés de construir o backlog de forma isolada, conduzi sessões de brainstorming com o time onde a necessidade do cliente era discutida e desenhada coletivamente antes de qualquer história ser escrita. Essa abordagem garantiu que todos entendessem o produto como um todo, reduziu dúvidas durante o desenvolvimento e tornou as decisões de escopo mais sólidas, já que foram construídas com a contribuição de quem iria implementá-las.
 
-- Identifiquei que a equipe precisava de apoio para não atrasar a entrega da sprint e assumi tarefas de desenvolvimento em paralelo ao papel de PO, implementando o frontend de autenticação. Essa transição entre responsabilidades de produto e código garantiu que as entregas fossem mantidas no prazo sem sobrecarregar os demais membros, demonstrando adaptabilidade e comprometimento com o resultado coletivo da equipe.
+- Ao identificar que o time precisava de apoio para manter o ritmo da sprint, assumi tarefas de desenvolvimento em paralelo ao papel de PO, implementando o frontend das telas de autenticação. Essa transição entre responsabilidades de produto e código garantiu que as entregas fossem mantidas no prazo sem sobrecarregar os demais membros, demonstrando comprometimento com o resultado coletivo.
