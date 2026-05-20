@@ -40,6 +40,7 @@ Neste portf처lio, apresento os projetos que desenvolvi ao longo da minha trajet�
   - [3째 semestre | 2/2024 - Morpheus](#3-semestre--22024)
   - [4째 semestre | 1/2025 - Demeter](#4-semestre--12025)
   - [5째 semestre | 2/2025 - Jib처ia](#5-semestre--22025)
+  - [6째 semestre | 1/2026 - Thunderstone](#6-semestre--12026)
   
 ---
 
