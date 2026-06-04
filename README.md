@@ -11,10 +11,19 @@
 </p>
 
 <p align="justify">
-Olá! Sou a Paloma, estudante de Banco de Dados na FATEC São José dos Campos. Iniciei meus estudos na área de tecnologia no primeiro semestre de 2023, no curso de Big Data e Inteligência Analítica, onde tive meus primeiros contatos com levantamento de requisitos, comunicação com o cliente, organização de projetos e a metodologia Scrum.<p>
-Por preferir a modalidade presencial, migrei para a FATEC no segundo semestre de 2023. Desde então, participei das API’s (Aprendizagem por Projetos Integrados), aplicando na prática o que aprendi e desenvolvendo projetos com linguagens como Python, Java e JavaScript, além de frameworks como Vue.js, Spring Boot e Django. Também tive experiência com diversos bancos de dados, como PostgreSQL, MySQL, Oracle e MongoDB.<p>
-Atualmente atuo como desenvolvedora back-end júnior, trabalhando principalmente com C# e .NET, utilizando SQL Server, seguindo a metodologia Scrum e participando ativamente de levantamento de requisitos e organização de projetos.<p>
-Neste portfólio, apresento os projetos que desenvolvi ao longo da minha trajetória na FATEC e minha evolução prática na área de tecnologia.
+Olá! Sou a Paloma, estudante de Banco de Dados na FATEC São José dos Campos. Iniciei meus estudos na área de tecnologia no primeiro semestre de 2023, no curso de Big Data e Inteligência Analítica, onde tive meus primeiros contatos com levantamento de requisitos, comunicação com o cliente, organização de projetos e a metodologia Scrum.
+</p>
+
+<p align="justify">
+Por preferir a modalidade presencial, migrei para a FATEC no segundo semestre de 2023. Desde então, participei das APIs (Aprendizagem por Projetos Integrados), aplicando na prática o que aprendi e desenvolvendo projetos com linguagens como Python, Java e JavaScript, além de frameworks como Vue.js, Spring Boot e Django. Também tive experiência com diversos bancos de dados, como PostgreSQL, MySQL, Oracle e MongoDB.
+</p>
+
+<p align="justify">
+Durante o período em que estudei na FATEC, atuei como desenvolvedora back-end júnior, trabalhando principalmente com C# e .NET, utilizando SQL Server, seguindo a metodologia Scrum e participando ativamente do levantamento de requisitos e da organização de projetos. Hoje finalizo minha graduação como estagiária de Product Manager, mapeando novos projetos, suas métricas, melhorias e oportunidades de evolução.
+</p>
+
+<p align="justify">
+Neste portfólio, apresento os projetos que desenvolvi ao longo da minha trajetória na FATEC e a minha evolução prática na área de tecnologia.
 </p>
 
 ---
@@ -542,6 +551,24 @@ Na primeira sprint, desenvolvi uma POC do mapa de calor para validar com o clien
 Mantive um ciclo contínuo de feedback, validando todas as entregas com a Tecsys antes de considerá-las finalizadas. A cada sprint, enviava os resultados das análises e confirmava se os rankings, gráficos e mapas de calor respondiam às necessidades reais do negócio. Quando necessário, ajustava o backlog e o escopo com base nesse retorno, tornando cada sprint mais assertiva que a anterior. Essa prática eliminou retrabalhos e garantiu que o produto final fosse exatamente o que a Tecsys esperava para suportar sua estratégia de expansão de telemetria.
 
 Além das responsabilidades de PO, contribuí tecnicamente implementando o frontend das telas de autenticação: login, cadastro e gerenciamento de perfil, utilizando Petite-Vue.
+<details>
+  <summary><b>Detalhes</b></summary>
+  <br/>
+<img width="1355" height="594" alt="image" src="https://github.com/user-attachments/assets/900f85c7-4abb-4db8-b182-d46121ff8344" />
+</details>
+
+<details>
+  <summary><b>Detalhes</b></summary>
+  <br/>
+<img width="1275" height="569" alt="image" src="https://github.com/user-attachments/assets/d6ceff03-c353-4b3f-90ee-9394bcb48e9e" />
+</details>
+
+<details>
+  <summary><b>Detalhes</b></summary>
+  <br/>
+<img width="1139" height="576" alt="image" src="https://github.com/user-attachments/assets/0dce96f5-bc6e-4277-9fc5-7061c0edf394" />
+</details>
+
 
 ---
 
