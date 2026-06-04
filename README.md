@@ -45,10 +45,12 @@ Neste portfólio, apresento os projetos que desenvolvi ao longo da minha trajet�
 - [Contatos](#contatos)
 - [Projetos](#projetos)
   - [1° semestre | 2/2023 - Porygon](#1-semestre--22023)
-  - [2° semestre | 1/2024 - Javali](#2-semestre--12024)
+  - [2° semestre | 1/2024 - Trelawney ](#2-semestre--12024)
   - [3° semestre | 2/2024 - Morpheus](#3-semestre--22024)
   - [4° semestre | 1/2025 - Demeter](#4-semestre--12025)
   - [5° semestre | 2/2025 - Jibóia](#5-semestre--22025)
+  - [6° semestre | 1/2026 - Thunderstone](#6-semestre--12026)
+
   
 ---
 
@@ -147,7 +149,7 @@ Abaixo seguem as hards skills desenvolvidas e meus níveis de proficiência ao f
 
 --- 
 ### 2° semestre | 1/2024  
-#### Projeto: Javali  
+#### Projeto: Trelawney   
 **Empresa parceira:** Professor Emanuel Mineda 
 
 ---
@@ -189,7 +191,7 @@ O sistema foi desenvolvido para processar arquivos CSV de estações meteorológ
 ---
 
 #### Contribuições pessoais
-Nesse projeto, atuei como desenvolvedora e fui responsável pela implementação do backend do relatório para geração dos dados estatísticos utilizados no boxplot, aplicando fórmulas estatísticas para o cálculo do limite inferior, Q1, mediana (Q2), Q3, limite superior e detecção de outliers.
+Nesse projeto, atuei como desenvolvedora do grupo Javali e fui responsável pela implementação do backend do relatório para geração dos dados estatísticos utilizados no boxplot, aplicando fórmulas estatísticas para o cálculo do limite inferior, Q1, mediana (Q2), Q3, limite superior e detecção de outliers.
 
 Também desenvolvi a funcionalidade de gerenciamento de cidades no sistema. Além disso, criei o novo menu “Gerenciar” e o submenu “Cidade”, assegurando a navegação correta e o fluxo de edição conforme os requisitos definidos.
 
