@@ -1,15 +1,7 @@
-<div style="background: #e3c2ca; padding: 0 10px 10px 0; margin-bottom: 30px;">
-  <div style="background: #efd5dc; padding: 0 6px 6px 0;">
-    <div style="background: #fff5fa; padding: 60px 40px; text-align: center; border: 1px solid #f0d5db;">
-      <p style="color: #922828; font-size: 0.85em; letter-spacing: 2px; font-weight: 600; margin-bottom: 15px;">BEM-VINDO AO MEU</p>
-      <h1 style="font-size: 3.2em; color: #922828; margin: 0; font-weight: 800; line-height: 1.2;">Portfólio</h1>
-      <div style="width: 60px; height: 3px; background: #922828; margin: 25px auto;"></div>
-      <p style="color: #922828; font-size: 0.95em; margin-top: 25px; line-height: 1.8;">
-        <strong>Paloma Soares</strong> · Desenvolvedora Full Stack<br>
-        Especialista em Product Management e Inovação
-      </p>
-    </div>
-  </div>
+  <img 
+    src="https://capsule-render.vercel.app/api?type=waving&height=150&color=F4C2C2" 
+    style="width: 100%; height: auto;"
+  />
 </div>
 
 <h2 align="center">Quem sou eu?</h2>
