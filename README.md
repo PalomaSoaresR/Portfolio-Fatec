@@ -1,7 +1,15 @@
-  <img 
-    src="https://capsule-render.vercel.app/api?type=waving&height=115&section=header&reversal=false&fontSize=70&fontColor=00FFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&color=38A0D1" 
-    style="width: 100%; height: auto;"
-  />
+<div style="background: #e3c2ca; padding: 0 10px 10px 0; margin-bottom: 30px;">
+  <div style="background: #efd5dc; padding: 0 6px 6px 0;">
+    <div style="background: #fff5fa; padding: 60px 40px; text-align: center; border: 1px solid #f0d5db;">
+      <p style="color: #922828; font-size: 0.85em; letter-spacing: 2px; font-weight: 600; margin-bottom: 15px;">BEM-VINDO AO MEU</p>
+      <h1 style="font-size: 3.2em; color: #922828; margin: 0; font-weight: 800; line-height: 1.2;">Portfólio</h1>
+      <div style="width: 60px; height: 3px; background: #922828; margin: 25px auto;"></div>
+      <p style="color: #922828; font-size: 0.95em; margin-top: 25px; line-height: 1.8;">
+        <strong>Paloma Soares</strong> · Desenvolvedora Full Stack<br>
+        Especialista em Product Management e Inovação
+      </p>
+    </div>
+  </div>
 </div>
 
 <h2 align="center">Quem sou eu?</h2>
@@ -45,7 +53,7 @@ Neste portfólio, apresento os projetos que desenvolvi ao longo da minha trajet�
 - [Contatos](#contatos)
 - [Projetos](#projetos)
   - [1° semestre | 2/2023 - Porygon](#1-semestre--22023)
-  - [2° semestre | 1/2024 - Javali](#2-semestre--12024)
+  - [2° semestre | 1/2024 - Trelawney ](#2-semestre--12024)
   - [3° semestre | 2/2024 - Morpheus](#3-semestre--22024)
   - [4° semestre | 1/2025 - Demeter](#4-semestre--12025)
   - [5° semestre | 2/2025 - Jibóia](#5-semestre--22025)
@@ -148,7 +156,7 @@ Abaixo seguem as hards skills desenvolvidas e meus níveis de proficiência ao f
 
 --- 
 ### 2° semestre | 1/2024  
-#### Projeto: Javali  
+#### Projeto: Trelawney   
 **Empresa parceira:** Professor Emanuel Mineda 
 
 ---
@@ -190,7 +198,7 @@ O sistema foi desenvolvido para processar arquivos CSV de estações meteorológ
 ---
 
 #### Contribuições pessoais
-Nesse projeto, atuei como desenvolvedora e fui responsável pela implementação do backend do relatório para geração dos dados estatísticos utilizados no boxplot, aplicando fórmulas estatísticas para o cálculo do limite inferior, Q1, mediana (Q2), Q3, limite superior e detecção de outliers.
+Nesse projeto, atuei como desenvolvedora do grupo Javali e fui responsável pela implementação do backend do relatório para geração dos dados estatísticos utilizados no boxplot, aplicando fórmulas estatísticas para o cálculo do limite inferior, Q1, mediana (Q2), Q3, limite superior e detecção de outliers.
 
 Também desenvolvi a funcionalidade de gerenciamento de cidades no sistema. Além disso, criei o novo menu “Gerenciar” e o submenu “Cidade”, assegurando a navegação correta e o fluxo de edição conforme os requisitos definidos.
 
